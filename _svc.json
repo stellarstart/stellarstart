@@ -1,0 +1,1364 @@
+{
+ "areas": [
+  {
+   "num": "01",
+   "title": "Entity Formation & Structuring",
+   "sub": "Forming entities and designing structures across 38 jurisdictions.",
+   "services": [
+    {
+     "name": "Jurisdiction selection & structuring advisory",
+     "brief": "Before any filings, we analyse your commercial goals, ownership profile, capital plans, and operational footprint to recommend a jurisdiction and entity type. This is the most important conversation in the engagement, and it is where most cost-saving and tax-saving decisions are made.",
+     "where": "Wyoming vs Delaware for non-US founders \u00b7 UAE mainland vs free zone selection \u00b7 Singapore vs Hong Kong for Asia-Pacific HQ \u00b7 Choosing between SAS, GmbH, BV, and Ltd for European HQ",
+     "fee": "Setup bundle",
+     "jur": [
+      "Wyoming",
+      "Delaware",
+      "United Arab Emirates",
+      "Singapore",
+      "Hong Kong",
+      "Germany",
+      "France"
+     ],
+     "ind": [
+      "SaaS & Cloud Software",
+      "Real Estate & Property Investment",
+      "Manufacturing & Industrial",
+      "NGO, Charity & Social Enterprise"
+     ]
+    },
+    {
+     "name": "Single-entity formation",
+     "brief": "End-to-end formation of a single operating company in any of our supported jurisdictions, including articles of incorporation, founders documentation, registered office, registered agent, and bank-ready document pack.",
+     "where": "US LLC and C-Corp formation \u00b7 UK Ltd, LLP, and PLC incorporation \u00b7 Singapore Pte Ltd, Hong Kong Limited, UAE Free Zone, UAE Mainland LLC formation \u00b7 EU GmbH, BV, SARL, SAS, Pty Ltd, Sdn Bhd formations",
+     "fee": "Setup bundle",
+     "jur": [
+      "United Kingdom",
+      "United Arab Emirates",
+      "India",
+      "Singapore",
+      "Hong Kong",
+      "Germany",
+      "France",
+      "Malaysia"
+     ],
+     "ind": [
+      "Financial Services & FinTech",
+      "NGO, Charity & Social Enterprise"
+     ]
+    },
+    {
+     "name": "Multi-entity holding structure design",
+     "brief": "For founders building cross-border businesses, IP portfolios, or investment vehicles, we design and implement multi-entity structures \u2014 parent holding companies, operating subsidiaries, IP holding entities, and special-purpose vehicles \u2014 with attention to tax efficiency, asset protection, and ownership control.",
+     "where": "UK Ltd holding company over Wyoming LLC operating subsidiary \u00b7 Singapore holding over Indonesian PT PMA for SEA expansion \u00b7 Cayman fund over BVI investment SPV \u00b7 IP holding company in Netherlands or Ireland with operating entities elsewhere",
+     "fee": "Setup bundle",
+     "jur": [
+      "Wyoming",
+      "United Kingdom",
+      "India",
+      "Singapore",
+      "Ireland",
+      "Netherlands",
+      "Offshore (BVI, Cayman, Seychelles, Mauritius)",
+      "Indonesia"
+     ],
+     "ind": [
+      "Fashion & Apparel",
+      "Real Estate & Property Investment",
+      "NGO, Charity & Social Enterprise"
+     ]
+    },
+    {
+     "name": "Founder and shareholder documentation",
+     "brief": "Drafting and negotiating the founder-level documents that protect your interests and prepare you for investor diligence: shareholders agreements, founders agreements, voting trusts, drag-along and tag-along rights, IP assignment deeds, and 83(b) elections for US C-Corp founders.",
+     "where": "Founders agreement for two-founder SaaS startup \u00b7 Shareholders agreement for family business succession \u00b7 IP assignment deeds at incorporation \u00b7 83(b) election support for early-stage US C-Corp founders",
+     "fee": "Setup bundle",
+     "jur": [
+      "United Kingdom",
+      "United Arab Emirates",
+      "India",
+      "Singapore"
+     ],
+     "ind": [
+      "SaaS & Cloud Software",
+      "EdTech & Online Learning"
+     ]
+    },
+    {
+     "name": "Cross-border and corporate restructuring",
+     "brief": "Where existing structures need to be reorganised \u2014 in advance of fundraising, acquisition, sale, or relocation \u2014 we handle the documentation and coordination across jurisdictions. This typically involves share-for-share exchanges, intra-group transfers, branch-to-subsidiary conversions, and migration of holding companies.",
+     "where": "UK Ltd to Delaware C-Corp flip ahead of US fundraise \u00b7 Migration of Cayman holding company to Singapore \u00b7 Conversion of US-tax-resident LLC to corporation \u00b7 Branch-to-subsidiary conversion for permanent establishment management. Apostille, legalisation, and document authentication Many cross-border transactions require notarised, apostilled, or legalised documents for use in foreign jurisdictions. We coordinate the full authentication chain through trusted notaries, the Foreign Commonwealth and Development Office (FCDO), and foreign embassies as required",
+     "fee": "Setup bundle",
+     "jur": [
+      "Delaware",
+      "United Kingdom",
+      "India",
+      "Singapore",
+      "Offshore (BVI, Cayman, Seychelles, Mauritius)"
+     ],
+     "ind": [
+      "Real Estate & Property Investment"
+     ]
+    },
+    {
+     "name": "Cross-border and corporate restructuring",
+     "brief": "Where existing structures need to be reorganised \u2014 in advance of fundraising, acquisition, sale, or relocation \u2014 we handle the documentation and coordination across jurisdictions. This typically involves share-for-share exchanges, intra-group transfers, branch-to-subsidiary conversions, and migration of holding companies.",
+     "where": "Apostille of UK Ltd documents for use in UAE \u00b7 Embassy legalisation of US documents for Saudi Arabia \u00b7 Notarised translations for EU member state filings \u00b7 Sworn translations for Russian and Chinese authorities",
+     "fee": "Setup bundle",
+     "jur": [
+      "Delaware",
+      "United Kingdom",
+      "United Arab Emirates",
+      "India",
+      "Singapore",
+      "Offshore (BVI, Cayman, Seychelles, Mauritius)"
+     ],
+     "ind": [
+      "Real Estate & Property Investment"
+     ]
+    },
+    {
+     "name": "Beneficial ownership and transparency compliance",
+     "brief": "Beneficial ownership disclosure is now mandatory across nearly all our jurisdictions: UK PSC register, US Corporate Transparency Act / FinCEN BOI, EU UBO registers, UAE UBO declarations, Indian SBO disclosures. We handle initial filings and ongoing maintenance.",
+     "where": "FinCEN BOI initial filings for US LLCs \u00b7 PSC register setup and maintenance \u00b7 EU member state UBO filings \u00b7 UAE UBO declarations under Cabinet Decision 58",
+     "fee": "Setup bundle",
+     "jur": [
+      "United Kingdom",
+      "United Arab Emirates",
+      "India"
+     ],
+     "ind": [
+      "NGO, Charity & Social Enterprise"
+     ]
+    },
+    {
+     "name": "Bank-ready documentation packs",
+     "brief": "Banking is the hardest part of cross-border setup. Banks now demand comprehensive KYC, source-of-funds documentation, structure diagrams, and business descriptions before opening accounts.",
+     "where": "Bank-ready packs for non-US founders applying to US neobanks (Mercury, Brex, Relay) \u00b7 UK challenger bank applications (Tide, Wise Business, Revolut Business) \u00b7 UAE banking packs for mainland and free-zone entities \u00b7 EU multi-currency account introductions. What You Receive",
+     "fee": "Setup bundle",
+     "jur": [
+      "United Kingdom",
+      "United Arab Emirates"
+     ],
+     "ind": [
+      "Real Estate & Property Investment",
+      "Financial Services & FinTech"
+     ]
+    }
+   ]
+  },
+  {
+   "num": "02",
+   "title": "Tax Registration & Compliance",
+   "sub": "The foundational tax identifiers and the ongoing filings that follow.",
+   "services": [
+    {
+     "name": "Tax identifier registrations",
+     "brief": "End-to-end coordination of the foundational tax identifiers required to operate in each jurisdiction. We handle the application paperwork, liaise with the tax authority, and deliver the final identifiers ready for banking, payroll, and customer-facing use.",
+     "where": "US EIN (federal employer identification number) \u00b7 UK UTR (corporation tax unique taxpayer reference) \u00b7 Australia ABN and TFN \u00b7 Canada Business Number",
+     "fee": "Fixed fee",
+     "jur": [
+      "United Kingdom",
+      "United Arab Emirates",
+      "India",
+      "Australia",
+      "Canada"
+     ],
+     "ind": [
+      "Financial Services & FinTech"
+     ]
+    },
+    {
+     "name": "VAT, GST, and consumption tax compliance",
+     "brief": "Sales tax / VAT / GST is the highest-volume tax compliance work for most growing businesses, because returns are quarterly or monthly and the rules vary dramatically by jurisdiction and product category. We handle registration and ongoing returns across UK VAT, EU VAT (including OSS/IOSS for cross-border B2C), US state sales tax, Canadian GST/HST, Australian GST, UAE VAT, Indian GST, and others.",
+     "where": "UK VAT registration and quarterly returns \u00b7 EU OSS / IOSS for cross-border e- commerce \u00b7 US state sales tax nexus analysis and registrations (Amazon FBA, Shopify D2C) \u00b7 Indian GST monthly returns",
+     "fee": "Fixed fee",
+     "jur": [
+      "United Kingdom",
+      "United Arab Emirates",
+      "India",
+      "Australia",
+      "Canada"
+     ],
+     "ind": [
+      "E-commerce & D2C",
+      "NGO, Charity & Social Enterprise"
+     ]
+    },
+    {
+     "name": "Corporate income tax compliance",
+     "brief": "Annual corporate income tax returns across our jurisdictions, in collaboration with qualified tax advisers in each market. We project-manage the gathering of source data, supporting documentation, and review cycles, ensuring filings are accurate and on time.",
+     "where": "UK CT600 filings via HMRC \u00b7 US Form 1120 / 1120-S filings (including 5472 for foreign-owned LLCs) \u00b7 UAE corporate tax (FTA) returns \u00b7 Australia T2 / company tax return",
+     "fee": "Fixed fee",
+     "jur": [
+      "United Kingdom",
+      "United Arab Emirates",
+      "India",
+      "Australia"
+     ],
+     "ind": [
+      "NGO, Charity & Social Enterprise"
+     ]
+    },
+    {
+     "name": "Sales tax nexus and multi-state US compliance",
+     "brief": "For e-commerce sellers, US sales tax is a particularly painful area: economic nexus thresholds, physical nexus through inventory in Amazon FBA warehouses, and 45+ separate state regimes. We run a nexus analysis, prioritise registrations, set up filing accounts, and either handle returns directly or coordinate with a US sales tax automation platform.",
+     "where": "Amazon FBA seller multi-state nexus analysis \u00b7 Shopify D2C economic nexus reviews \u00b7 Sales tax registrations across 15-25 states for high-volume e-commerce \u00b7 Voluntary disclosure agreements for historical non-compliance",
+     "fee": "Fixed fee",
+     "jur": [
+      "India"
+     ],
+     "ind": [
+      "E-commerce & D2C",
+      "NGO, Charity & Social Enterprise"
+     ]
+    },
+    {
+     "name": "Payroll tax and employer registrations",
+     "brief": "When you hire your first employee in a new jurisdiction, you trigger a cascade of new tax registrations: PAYE in the UK, EDD in California, GST and PAYG in Australia, equivalent regimes elsewhere. We handle the registrations and set up the ongoing payroll obligations.",
+     "where": "UK PAYE setup for first employee \u00b7 US state payroll registrations (state withholding, state unemployment) \u00b7 Australian PAYG withholding \u00b7 Indian PF, ESI, and TDS for employees",
+     "fee": "Fixed fee",
+     "jur": [
+      "Delaware",
+      "Texas",
+      "California",
+      "United Kingdom",
+      "United Arab Emirates",
+      "India",
+      "Australia"
+     ],
+     "ind": [
+      "Influencer, Creator & Personal Brand",
+      "Real Estate & Property Investment",
+      "NGO, Charity & Social Enterprise"
+     ]
+    },
+    {
+     "name": "Payroll tax and employer registrations",
+     "brief": "When you hire your first employee in a new jurisdiction, you trigger a cascade of new tax registrations: PAYE in the UK, EDD in California, GST and PAYG in Australia, equivalent regimes elsewhere. We handle the registrations and set up the ongoing payroll obligations.",
+     "where": "Delaware franchise tax (annual) \u00b7 California minimum franchise tax ($800) \u00b7 Texas Public Information Report and franchise tax \u00b7 New York biennial statement and Article 9-A filings",
+     "fee": "Fixed fee",
+     "jur": [
+      "Delaware",
+      "Texas",
+      "California",
+      "New York",
+      "United Kingdom",
+      "United Arab Emirates",
+      "India",
+      "Australia"
+     ],
+     "ind": [
+      "Influencer, Creator & Personal Brand",
+      "Real Estate & Property Investment",
+      "NGO, Charity & Social Enterprise"
+     ]
+    },
+    {
+     "name": "Cross-border tax considerations",
+     "brief": "Understanding how transactions flow across borders is fundamental to international tax compliance. We work alongside qualified tax advisers on permanent-establishment risk analysis, withholding tax on cross-border payments, tax treaty positions, transfer pricing documentation, and BEPS Pillar Two minimum-tax considerations for larger groups.",
+     "where": "Permanent establishment risk reviews \u00b7 Withholding tax analysis on cross-border royalty and service payments \u00b7 Tax residence advisory for founders and employees \u00b7 Transfer pricing documentation for intra-group services and licensing",
+     "fee": "Fixed fee",
+     "jur": [
+      "India"
+     ],
+     "ind": [
+      "Gaming, Esports & Interactive Entertainment",
+      "Hospitality, Restaurants & Travel",
+      "Real Estate & Property Investment",
+      "Financial Services & FinTech",
+      "NGO, Charity & Social Enterprise"
+     ]
+    },
+    {
+     "name": "Voluntary disclosures and remediation",
+     "brief": "Where past compliance has slipped \u2014 missed returns, undisclosed positions, late registrations \u2014 we handle voluntary disclosures, late-filing remediation, and penalty mitigation. Early disclosure almost always produces a better outcome than waiting to be found, and many jurisdictions have formal voluntary disclosure programmes that significantly reduce penalties.",
+     "where": "IRS streamlined offshore disclosure for US persons with undeclared foreign accounts \u00b7 HMRC voluntary disclosure of historical positions \u00b7 Multi-state US sales tax voluntary disclosure \u00b7 Late- filing remediation across multiple jurisdictions. What You Receive",
+     "fee": "Fixed fee",
+     "jur": [
+      "United Kingdom",
+      "Offshore (BVI, Cayman, Seychelles, Mauritius)"
+     ],
+     "ind": [
+      "Web3, Crypto & Digital Assets",
+      "Financial Services & FinTech",
+      "NGO, Charity & Social Enterprise"
+     ]
+    }
+   ]
+  },
+  {
+   "num": "03",
+   "title": "Registered Agent & Corporate Secretarial",
+   "sub": "Statutory presence and ongoing corporate housekeeping.",
+   "services": [
+    {
+     "name": "US registered agent service",
+     "brief": "Statutory registered agent service in all major US commercial states, covering acceptance of service of process, forwarding of statutory mail, and prompt escalation of time-sensitive notices. We hold registered-agent appointments for many client entities and maintain documented processes for service-of-process acceptance and notification.",
+     "where": "Wyoming registered agent for non-resident-owned LLCs \u00b7 Delaware registered agent for C-Corps and LLCs \u00b7 Texas, Florida, California, NY, NJ registered agent \u00b7 Multi-state coordination for businesses operating across the US",
+     "fee": "Annual subscription",
+     "jur": [
+      "Wyoming",
+      "Delaware",
+      "Texas",
+      "Florida",
+      "California",
+      "India"
+     ],
+     "ind": [
+      "SaaS & Cloud Software",
+      "E-commerce & D2C",
+      "Fashion & Apparel",
+      "Influencer, Creator & Personal Brand"
+     ]
+    },
+    {
+     "name": "UK registered office and mail handling",
+     "brief": "Registered office service at 85 Great Portland Street, London W1W 7LT, with statutory mail receipt, scanning, and forwarding. Suitable as a sole registered office or as a separate registered office where you want to keep your trading address private.",
+     "where": "Registered office for UK Ltd, LLP, and PLC \u00b7 Service of process acceptance and rapid escalation \u00b7 Mail scanning and digital forwarding \u00b7 Director service address (where the director\u2019s home address is excluded under the section 243 procedure)",
+     "fee": "Annual subscription",
+     "jur": [
+      "United Kingdom",
+      "India"
+     ],
+     "ind": [
+      "SaaS & Cloud Software"
+     ]
+    },
+    {
+     "name": "International registered office and local agent services",
+     "brief": "Registered office and local agent services in jurisdictions where required by company law, delivered through our team or trusted local partners. Particularly important for jurisdictions with substance requirements (Singapore, Hong Kong, UAE) and those with publication requirements (New York LLC publication, Arizona, Nebraska).",
+     "where": "UAE mainland local service agent and PRO services \u00b7 Singapore registered office and resident director (nominee) \u00b7 Hong Kong company secretary and registered office \u00b7 Irish, Cypriot, and Estonian registered office services",
+     "fee": "Annual subscription",
+     "jur": [
+      "New York",
+      "United Arab Emirates",
+      "Singapore",
+      "Hong Kong",
+      "Ireland",
+      "Estonia"
+     ],
+     "ind": [
+      "Manufacturing & Industrial"
+     ]
+    },
+    {
+     "name": "Statutory register maintenance",
+     "brief": "Maintenance of the statutory registers that every company is legally required to keep: register of members, register of directors, register of secretaries, register of charges, PSC / beneficial- ownership register. These are routinely demanded in M&A diligence and need to be accurate and up to date.",
+     "where": "UK statutory registers under the Companies Act 2006 \u00b7 US statutory record-keeping (state-by-state) \u00b7 PSC register maintenance with regular review against ownership changes \u00b7 EU beneficial-ownership register coordination",
+     "fee": "Annual subscription",
+     "jur": [
+      "United Kingdom",
+      "India"
+     ],
+     "ind": [
+      "SaaS & Cloud Software",
+      "E-commerce & D2C",
+      "Fashion & Apparel",
+      "Influencer, Creator & Personal Brand"
+     ]
+    },
+    {
+     "name": "Annual filings and confirmation statements",
+     "brief": "The recurring filing work that keeps your company in good standing: UK confirmation statements, US state annual reports, Canadian annual returns, Australian ASIC annual reviews, UAE license renewals, India ROC filings, plus equivalent regimes in each of our jurisdictions.",
+     "where": "UK confirmation statement (CS01) \u00b7 US state annual reports (50 states) \u00b7 India MGT-7, AOC-4 \u00b7 Singapore annual return",
+     "fee": "Annual subscription",
+     "jur": [
+      "United Kingdom",
+      "United Arab Emirates",
+      "India",
+      "Singapore",
+      "Australia",
+      "Canada"
+     ],
+     "ind": [
+      "Hospitality, Restaurants & Travel",
+      "Financial Services & FinTech",
+      "NGO, Charity & Social Enterprise"
+     ]
+    },
+    {
+     "name": "Annual filings and confirmation statements",
+     "brief": "The recurring filing work that keeps your company in good standing: UK confirmation statements, US state annual reports, Canadian annual returns, Australian ASIC annual reviews, UAE license renewals, India ROC filings, plus equivalent regimes in each of our jurisdictions. Typical work: UK confirmation statement (CS01); US state annual reports (50 states); India MGT-7, AOC-4; Singapore annual...",
+     "where": "Director appointment and resignation resolutions \u00b7 Dividend declarations \u00b7 Banking authorisation resolutions \u00b7 Share issuance and allotment resolutions",
+     "fee": "Annual subscription",
+     "jur": [
+      "United Kingdom",
+      "United Arab Emirates",
+      "India",
+      "Singapore",
+      "Australia",
+      "Canada"
+     ],
+     "ind": [
+      "Hospitality, Restaurants & Travel",
+      "Financial Services & FinTech",
+      "NGO, Charity & Social Enterprise"
+     ]
+    },
+    {
+     "name": "Director and officer changes",
+     "brief": "Filing director, secretary, and officer changes across all our jurisdictions: appointments, resignations, address changes, name changes. This includes the underlying documentation (consent letters, resolutions, written notices) and the public-record filings (Companies House, state secretaries of state, equivalents).",
+     "where": "UK director appointment filings (AP01) \u00b7 US state officer change filings \u00b7 India DIR-12 director appointment / cessation \u00b7 Director nominee changes for nominee structures",
+     "fee": "Annual subscription",
+     "jur": [
+      "United Kingdom",
+      "India"
+     ],
+     "ind": [
+      "Real Estate & Property Investment"
+     ]
+    },
+    {
+     "name": "Multi-jurisdictional compliance calendars",
+     "brief": "For clients with entities across multiple jurisdictions, we maintain a single managed compliance calendar tracking every filing deadline, every renewal, every beneficial-ownership update, every annual return. Proactive reminders go out weeks before each deadline.",
+     "where": "Single calendar for a client with UK, US, UAE, and Singapore entities \u00b7 Coordinated quarter-end filings across multiple jurisdictions \u00b7 Proactive alerts ahead of renewal seasons. What You Receive",
+     "fee": "Annual subscription",
+     "jur": [
+      "United Kingdom",
+      "United Arab Emirates",
+      "India",
+      "Singapore"
+     ],
+     "ind": [
+      "NGO, Charity & Social Enterprise"
+     ]
+    }
+   ]
+  },
+  {
+   "num": "04",
+   "title": "Licensing & Regulatory Obligations",
+   "sub": "Sector and location-specific licensing requirements.",
+   "services": [
+    {
+     "name": "US state and city business licensing",
+     "brief": "US business licensing is fragmented across federal, state, county, and city levels, with many home-occupation, retail-sales, and industry-specific licenses required even for small businesses. We map the licensing requirements for your specific business and location and execute the applications.",
+     "where": "Home occupation permits \u00b7 City retail and seller\u2019s permits \u00b7 State professional licensing coordination \u00b7 Multi-state license tracking for businesses operating across states",
+     "fee": "Capped fee",
+     "jur": [
+      "India"
+     ],
+     "ind": [
+      "E-commerce & D2C",
+      "Gaming, Esports & Interactive Entertainment",
+      "Hospitality, Restaurants & Travel"
+     ]
+    },
+    {
+     "name": "UAE trade licensing",
+     "brief": "UAE trade license setup is jurisdiction-defining: it determines what activities you can legally conduct, where you can operate, and what visa entitlements your entity has. We coordinate mainland and free-zone licensing including business activity scoping, ministry NOCs, and ongoing renewals.",
+     "where": "UAE mainland DED commercial license \u00b7 Free zone licensing (DMCC, IFZA, RAKEZ, ADGM, DIFC, ADGM, JAFZA, DAFZA, DSO) \u00b7 Sector approvals from UAE ministries (NOCs) \u00b7 Ongoing license renewals (annual)",
+     "fee": "Capped fee",
+     "jur": [
+      "United Arab Emirates",
+      "India"
+     ],
+     "ind": [
+      "Gaming, Esports & Interactive Entertainment",
+      "Hospitality, Restaurants & Travel",
+      "NGO, Charity & Social Enterprise"
+     ]
+    },
+    {
+     "name": "Financial services licensing",
+     "brief": "For fintechs and financial services firms, regulatory authorisation is the most important corporate event. We coordinate (with regulated advisers) the FCA authorisations, FCA crypto-asset business registration, MiCA classification analyses for crypto issuers, MAS licensing in Singapore, and equivalent regimes in other jurisdictions.",
+     "where": "UK FCA Part 4A authorisation coordination \u00b7 UK FCA crypto-asset business AML registration \u00b7 EU MiCA classification analysis for crypto-asset issuers \u00b7 Payment Services Regulations compliance",
+     "fee": "Capped fee",
+     "jur": [
+      "United Kingdom",
+      "India",
+      "Singapore"
+     ],
+     "ind": [
+      "SaaS & Cloud Software",
+      "Web3, Crypto & Digital Assets",
+      "Gaming, Esports & Interactive Entertainment",
+      "Hospitality, Restaurants & Travel",
+      "Real Estate & Property Investment",
+      "Financial Services & FinTech",
+      "Manufacturing & Industrial",
+      "NGO, Charity & Social Enterprise"
+     ]
+    },
+    {
+     "name": "Healthcare, medical device, and life-sciences licensing",
+     "brief": "Healthcare-adjacent products and services face the most stringent licensing regimes. We coordinate FDA registrations (cosmetics, food, supplements, medical devices), MHRA classification analyses, Health Canada notifications, and EU MDR/IVDR registrations.",
+     "where": "US FDA MoCRA cosmetic registrations \u00b7 MHRA medical device classification \u00b7 Class I self-declarations \u00b7 Health Canada Cosmetic Notification Forms",
+     "fee": "Capped fee",
+     "jur": [
+      "India",
+      "Canada"
+     ],
+     "ind": [
+      "Gaming, Esports & Interactive Entertainment",
+      "Hospitality, Restaurants & Travel",
+      "Healthcare, Wellness & Cosmetics",
+      "Pharmaceutical & Life Sciences"
+     ]
+    },
+    {
+     "name": "Food and beverage licensing",
+     "brief": "Food businesses face regulator attention from product safety, allergen labelling, claims compliance, and import controls. We coordinate UK FSA, US FDA, Health Canada, and EU food import compliance work, plus product-specific regimes (UK Novel Foods for CBD, alcohol licensing for spirits, etc.).",
+     "where": "UK Novel Foods registration for CBD products \u00b7 US FDA Prior Notice for food imports \u00b7 Alcohol licensing across UK, EU, US \u00b7 Allergen and front-of-pack labelling reviews. Sector-specific licensing (cannabis, gambling, adult content, others) Heavily regulated sectors require specialist licensing knowledge. We coordinate cannabis licensing (state-by-state US, UK Novel Foods, Canadian Cannabis Act, German medical cannabis), gambling licensing (UK Gambling Commission, Malta MGA, Curacao), and adult- content age-verification compliance",
+     "fee": "Capped fee",
+     "jur": [
+      "United Kingdom",
+      "India",
+      "Canada"
+     ],
+     "ind": [
+      "Influencer, Creator & Personal Brand",
+      "Film, TV, Podcast & Audio Production",
+      "Gaming, Esports & Interactive Entertainment",
+      "Hospitality, Restaurants & Travel",
+      "Healthcare, Wellness & Cosmetics",
+      "Manufacturing & Industrial",
+      "Pharmaceutical & Life Sciences",
+      "NGO, Charity & Social Enterprise"
+     ]
+    },
+    {
+     "name": "Food and beverage licensing",
+     "brief": "Food businesses face regulator attention from product safety, allergen labelling, claims compliance, and import controls. We coordinate UK FSA, US FDA, Health Canada, and EU food import compliance work, plus product-specific regimes (UK Novel Foods for CBD, alcohol licensing for spirits, etc.).",
+     "where": "US cannabis state-by-state licensing strategy \u00b7 UK Gambling Commission B2C and B2B operator licences \u00b7 Adult content age verification compliance (UK Online Safety Act, US state laws, EU DSA) \u00b7 Esports tournament licensing",
+     "fee": "Capped fee",
+     "jur": [
+      "United Kingdom",
+      "India",
+      "Canada"
+     ],
+     "ind": [
+      "Influencer, Creator & Personal Brand",
+      "Film, TV, Podcast & Audio Production",
+      "Gaming, Esports & Interactive Entertainment",
+      "Hospitality, Restaurants & Travel",
+      "Healthcare, Wellness & Cosmetics",
+      "Manufacturing & Industrial",
+      "Pharmaceutical & Life Sciences",
+      "NGO, Charity & Social Enterprise"
+     ]
+    },
+    {
+     "name": "Publication requirements and local presence",
+     "brief": "Several US states have unusual publication requirements for LLCs (New York: six weeks in two newspapers; Arizona: similar; Nebraska: similar). We coordinate publication, prepare the certificate of publication, and file with the state.",
+     "where": "New York LLC publication requirement \u00b7 Arizona publication \u00b7 Nebraska publication \u00b7 Other jurisdiction-specific posting and presence requirements",
+     "fee": "Capped fee",
+     "jur": [
+      "New York",
+      "India"
+     ],
+     "ind": [
+      "SaaS & Cloud Software",
+      "E-commerce & D2C",
+      "Fashion & Apparel",
+      "Influencer, Creator & Personal Brand"
+     ]
+    },
+    {
+     "name": "Licence renewals and ongoing compliance management",
+     "brief": "Licences are rarely one-and-done. Most need annual renewal, often with continuing-education requirements, fee payments, or status updates.",
+     "where": "Annual trade license renewals (UAE) \u00b7 Multi-state US license renewals \u00b7 Industry- specific continuing licensing (professional services, healthcare) \u00b7 Renewal of FCA / MAS / equivalent regulatory permissions. What You Receive",
+     "fee": "Capped fee",
+     "jur": [
+      "United Arab Emirates"
+     ],
+     "ind": [
+      "Web3, Crypto & Digital Assets",
+      "Gaming, Esports & Interactive Entertainment",
+      "Hospitality, Restaurants & Travel",
+      "Healthcare, Wellness & Cosmetics",
+      "EdTech & Online Learning",
+      "Financial Services & FinTech",
+      "NGO, Charity & Social Enterprise"
+     ]
+    }
+   ]
+  },
+  {
+   "num": "05",
+   "title": "Banking & Financial Setup",
+   "sub": "Bank-readiness, partner introductions, and finance infrastructure.",
+   "services": [
+    {
+     "name": "Bank-readiness preparation",
+     "brief": "Compliance teams want to see a coherent story: who you are, where your money comes from, what your business does, who your customers and counterparties are. We prepare a bank- readiness pack that anticipates the questions and presents the answers \u2014 a structure chart, business description, customer profile, source-of-funds documentation, and supporting corporate documents.",
+     "where": "Source-of-funds documentation for high-bar banks \u00b7 Structure charts and beneficial- ownership disclosure \u00b7 Business activity descriptions tailored to the bank\u2019s onboarding system \u00b7 KYC document collation and certification",
+     "fee": "Fixed fee",
+     "jur": [
+      "India"
+     ],
+     "ind": [
+      "Real Estate & Property Investment",
+      "Financial Services & FinTech",
+      "NGO, Charity & Social Enterprise"
+     ]
+    },
+    {
+     "name": "UK banking",
+     "brief": "UK banking is among the most accessible in the world for newly formed entities, but partner selection still matters. We make introductions to UK high-street banks (HSBC, Barclays, NatWest) where suitable, and to challenger banks (Tide, Wise Business, Revolut Business, Starling Business) for faster onboarding.",
+     "where": "UK Ltd opening Tide / Wise / Revolut Business accounts \u00b7 High-street bank applications for established UK businesses \u00b7 Private banking introductions for HNW clients \u00b7 Multi- currency UK accounts (GBP, USD, EUR)",
+     "fee": "Fixed fee",
+     "jur": [
+      "United Kingdom",
+      "India"
+     ],
+     "ind": [
+      "Financial Services & FinTech"
+     ]
+    },
+    {
+     "name": "US banking for non-residents",
+     "brief": "US business banking is famously difficult for non-resident-owned entities. Traditional banks generally require in-person attendance and US tax residence.",
+     "where": "Mercury account for non-resident-owned Wyoming or Delaware LLC \u00b7 Brex Treasury for venture-backed C-Corps \u00b7 Relay for owner-operator businesses \u00b7 In-person account opening coordination for travelling founders",
+     "fee": "Fixed fee",
+     "jur": [
+      "Wyoming",
+      "Delaware",
+      "India"
+     ],
+     "ind": [
+      "Financial Services & FinTech"
+     ]
+    },
+    {
+     "name": "EU multi-currency banking",
+     "brief": "EU banking varies widely by country. Some EU member states (Ireland, Estonia) are accessible to remote founders; others (Germany, France) typically require physical presence.",
+     "where": "Ireland banking for IE-incorporated tech companies \u00b7 Netherlands banking for BV holding companies \u00b7 Estonian e-Residency banking (via Wise, Payoneer, partner banks) \u00b7 Multi-EU- currency accounts for cross-border traders",
+     "fee": "Fixed fee",
+     "jur": [
+      "India",
+      "Ireland",
+      "Netherlands",
+      "Germany",
+      "Estonia",
+      "France",
+      "Cyprus"
+     ],
+     "ind": [
+      "SaaS & Cloud Software",
+      "Real Estate & Property Investment",
+      "Financial Services & FinTech"
+     ]
+    },
+    {
+     "name": "UAE banking",
+     "brief": "UAE banking has tightened significantly. Source of funds, business activity, and substance are scrutinised closely.",
+     "where": "UAE mainland LLC banking with Emirates NBD, ADCB, Mashreq, RAK \u00b7 Free-zone entity banking introductions \u00b7 Source-of-funds documentation tailored to UAE banks \u00b7 Initial deposit and ongoing balance requirements management",
+     "fee": "Fixed fee",
+     "jur": [
+      "United Arab Emirates",
+      "India"
+     ],
+     "ind": [
+      "Financial Services & FinTech",
+      "NGO, Charity & Social Enterprise"
+     ]
+    },
+    {
+     "name": "Asia-Pacific banking",
+     "brief": "Singapore and Hong Kong banking are sophisticated but have tightened their non-resident onboarding. We coordinate through partners with established relationships at DBS, OCBC, UOB (Singapore), HSBC, Standard Chartered (Hong Kong), and digital-first banks (Aspire, Wise, Currenxie, Statrys).",
+     "where": "Singapore Pte Ltd banking with DBS or OCBC \u00b7 Hong Kong limited company banking \u00b7 Asian digital banking alternatives (Aspire, Statrys, Currenxie) \u00b7 Cross-border treasury setup for APAC operating companies",
+     "fee": "Fixed fee",
+     "jur": [
+      "India",
+      "Singapore",
+      "Hong Kong"
+     ],
+     "ind": [
+      "Financial Services & FinTech"
+     ]
+    },
+    {
+     "name": "Payment processor and merchant account setup",
+     "brief": "Beyond banking, modern businesses need payment processors and merchant accounts: Stripe, PayPal, Wise Business, Adyen, Square, Authorize.net. For some business categories (crypto, gambling, adult, CBD) standard processors will not work, and we coordinate with specialist high- risk merchant providers.",
+     "where": "Stripe and PayPal Business account setup \u00b7 High-risk merchant accounts for crypto / adult / CBD \u00b7 PCI-DSS-compliant card-on-file payment setup \u00b7 Multi-region payment routing (EU SEPA, US ACH, UK Faster Payments)",
+     "fee": "Fixed fee",
+     "jur": [
+      "United Kingdom",
+      "India"
+     ],
+     "ind": [
+      "Web3, Crypto & Digital Assets",
+      "Gaming, Esports & Interactive Entertainment",
+      "Financial Services & FinTech"
+     ]
+    },
+    {
+     "name": "Accounting setup and finance infrastructure",
+     "brief": "Banking is one part of a wider financial infrastructure: accounting platform selection (Xero, QuickBooks, Zoho Books), bookkeeping process design, fractional-CFO introductions for growth- stage businesses, and accounting-partner referrals for substantive accounting work.",
+     "where": "Xero / QuickBooks / Zoho Books setup \u00b7 Multi-currency accounting configuration \u00b7 Bookkeeping handover packs \u00b7 Introductions to fractional CFOs and accounting partners. What You Receive",
+     "fee": "Fixed fee",
+     "jur": [
+      "India"
+     ],
+     "ind": [
+      "Fashion & Apparel",
+      "Real Estate & Property Investment",
+      "Financial Services & FinTech"
+     ]
+    }
+   ]
+  },
+  {
+   "num": "06",
+   "title": "Intellectual Property Protection",
+   "sub": "Trademark, copyright, design, and brand-enforcement work.",
+   "services": [
+    {
+     "name": "Trademark clearance and prosecution",
+     "brief": "End-to-end trademark work: clearance searches across registries, application drafting with proper class strategy and specification language, prosecution through Office Action / examination response cycles, refusal appeals (Appointed Person UK, TTAB US, EUIPO Boards of Appeal), and oversight to registration.",
+     "where": "UKIPO trademark filings with proper specification drafting \u00b7 USPTO filings including Statement of Use management \u00b7 EUIPO and Madrid Protocol applications \u00b7 Section 5(2)(b) and 2(d) refusal responses",
+     "fee": "Fixed fee",
+     "jur": [
+      "United Kingdom",
+      "India"
+     ],
+     "ind": [
+      "Fashion & Apparel"
+     ]
+    },
+    {
+     "name": "Trademark opposition and cancellation proceedings",
+     "brief": "Opposition and cancellation work is one of our most specialised areas. We handle TM7 oppositions, TM7A threatened oppositions, TM8 counterstatements, evidence rounds, oral hearings, and cancellation actions across UK and EU; ex parte and inter partes work in the US; opposition work across CIPO, IPONZ, IP Australia, and others through partners.",
+     "where": "UKIPO TM7 oppositions and TM8 counterstatements \u00b7 EUIPO opposition and cancellation work \u00b7 USPTO TTAB cancellation petitions \u00b7 Pre-opposition negotiation and letters of consent",
+     "fee": "Fixed fee",
+     "jur": [
+      "United Kingdom",
+      "India",
+      "Australia"
+     ],
+     "ind": [
+      "Fashion & Apparel"
+     ]
+    },
+    {
+     "name": "Copyright registration and enforcement",
+     "brief": "US Copyright Office and Indian Copyright Office registrations (the UK does not have a registration system), copyright recordation at US Customs, and copyright enforcement through DMCA takedowns, cease-and-desist programmes, and litigation paralegal support.",
+     "where": "US Copyright Office registrations for software, music, written works \u00b7 Indian Copyright Office filings \u00b7 DMCA \u00a7512(c) takedowns across hosting providers and platforms \u00b7 Copyright dispute negotiations and settlements",
+     "fee": "Fixed fee",
+     "jur": [
+      "United Kingdom",
+      "India"
+     ],
+     "ind": [
+      "SaaS & Cloud Software",
+      "Fashion & Apparel",
+      "Influencer, Creator & Personal Brand",
+      "Film, TV, Podcast & Audio Production",
+      "EdTech & Online Learning",
+      "Manufacturing & Industrial"
+     ]
+    },
+    {
+     "name": "Registered designs",
+     "brief": "Design filings at UKIPO, EUIPO (Registered Community Designs), USPTO (design patents \u2014 paralegal scope, with substantive prosecution by registered patent attorneys), and Hague Agreement international design filings.",
+     "where": "UKIPO registered design applications \u00b7 EUIPO multiple design filings (single application covering multiple variants) \u00b7 US design patent paralegal support \u00b7 Hague Agreement filings designating multiple jurisdictions",
+     "fee": "Fixed fee",
+     "jur": [
+      "United Kingdom"
+     ],
+     "ind": [
+      "Fashion & Apparel",
+      "Pharmaceutical & Life Sciences"
+     ]
+    },
+    {
+     "name": "Patent-adjacent paralegal services",
+     "brief": "Patent attorney work is regulated in the UK by IPReg and similarly elsewhere. We provide paralegal and administrative support only \u2014 prior art searches, PCT national phase entry coordination, annuity tracking, assignment recordals, IDS preparation, and outsourced docketing \u2014 with substantive patent advice provided by collaborating registered patent attorneys.",
+     "where": "Prior art and patent landscape searches \u00b7 PCT national phase entry coordination \u00b7 Patent annuity tracking and payment \u00b7 IDS preparation for USPTO matters. Brand protection and online enforcement Marketplace and social media takedown programmes designed for high-volume enforcement: Amazon Brand Registry, Etsy IP enforcement, eBay VeRO, Walmart Brand Portal, Shopify, Alibaba IPP, TikTok Shop. Plus social media takedowns across Instagram, TikTok, YouTube, Facebook, X. UDRP for domain disputes",
+     "fee": "Fixed fee",
+     "jur": [
+      "United Kingdom",
+      "India"
+     ],
+     "ind": [
+      "E-commerce & D2C",
+      "Fashion & Apparel",
+      "Influencer, Creator & Personal Brand",
+      "Financial Services & FinTech",
+      "Pharmaceutical & Life Sciences"
+     ]
+    },
+    {
+     "name": "Patent-adjacent paralegal services",
+     "brief": "Patent attorney work is regulated in the UK by IPReg and similarly elsewhere. We provide paralegal and administrative support only \u2014 prior art searches, PCT national phase entry coordination, annuity tracking, assignment recordals, IDS preparation, and outsourced docketing \u2014 with substantive patent advice provided by collaborating registered patent attorneys.",
+     "where": "Amazon Brand Registry setup and ongoing takedowns \u00b7 Etsy and eBay enforcement programmes \u00b7 TikTok Shop and social media impersonation takedowns \u00b7 UDRP for gTLD disputes",
+     "fee": "Fixed fee",
+     "jur": [
+      "United Kingdom",
+      "India"
+     ],
+     "ind": [
+      "E-commerce & D2C",
+      "Fashion & Apparel",
+      "Influencer, Creator & Personal Brand",
+      "Financial Services & FinTech",
+      "Pharmaceutical & Life Sciences"
+     ]
+    },
+    {
+     "name": "IP commercialisation and transactions",
+     "brief": "Licensing agreements (exclusive, non-exclusive, tiered-royalty, sublicensing), assignment deeds, IP holding structures, transfer pricing documentation for intra-group licensing, IP valuation reports, and IP due diligence for acquisitions, sales, and fundraising.",
+     "where": "Cross-border IP licensing agreements \u00b7 IP holding structure design (UK Patent Box, Ireland KDB, Singapore IP regime) \u00b7 IP M&A due diligence \u00b7 IP valuation reports for licensing or financial reporting",
+     "fee": "Fixed fee",
+     "jur": [
+      "United Kingdom",
+      "India",
+      "Singapore",
+      "Ireland"
+     ],
+     "ind": [
+      "Fashion & Apparel",
+      "Gaming, Esports & Interactive Entertainment",
+      "Hospitality, Restaurants & Travel",
+      "Real Estate & Property Investment",
+      "Financial Services & FinTech",
+      "Pharmaceutical & Life Sciences"
+     ]
+    },
+    {
+     "name": "Customs recordals and anti-counterfeiting",
+     "brief": "IP customs recordals enable border-force seizure of infringing imports. We coordinate UK Border Force Applications for Action, US CBP IPR e-Recordation, EU AFA, and equivalents in other jurisdictions.",
+     "where": "UK Border Force AFA filings \u00b7 US CBP IPR e-Recordation \u00b7 EU AFA filings \u00b7 Test- purchase coordination and evidence preservation. What You Receive",
+     "fee": "Fixed fee",
+     "jur": [
+      "United Kingdom",
+      "India"
+     ],
+     "ind": [
+      "Fashion & Apparel",
+      "Manufacturing & Industrial"
+     ]
+    }
+   ]
+  },
+  {
+   "num": "07",
+   "title": "Contracts, Documentation & Cross-Border Transactions",
+   "sub": "The commercial paper that supports international business.",
+   "services": [
+    {
+     "name": "SaaS and technology contracts",
+     "brief": "The core contract stack for SaaS businesses: Master Services Agreements, order forms, Data Processing Agreements (Article 28 GDPR), Service Level Agreements, End User Licence Agreements, Acceptable Use Policies, and bespoke terms for specific deals.",
+     "where": "MSA + order form for enterprise SaaS deals \u00b7 DPA aligned with UK GDPR and EU GDPR \u00b7 SLA with credit-based remedies \u00b7 EULA for downloadable software",
+     "fee": "Fixed fee",
+     "jur": [
+      "United Kingdom",
+      "India"
+     ],
+     "ind": [
+      "SaaS & Cloud Software",
+      "Gaming, Esports & Interactive Entertainment",
+      "EdTech & Online Learning"
+     ]
+    },
+    {
+     "name": "E-commerce and consumer contracts",
+     "brief": "Terms of Sale, Returns Policies, Subscription Terms, marketing consent flows, and acceptable- use policies for e-commerce sites \u2014 jurisdiction-aware for UK Consumer Rights Act, EU Omnibus Directive, and US consumer protection rules.",
+     "where": "Shopify / WooCommerce terms of sale \u00b7 Subscription and auto-renewal terms aligned with UK CMA and FTC requirements \u00b7 Returns and refunds policies \u00b7 Dropshipping supplier and consumer terms",
+     "fee": "Fixed fee",
+     "jur": [
+      "United Kingdom"
+     ],
+     "ind": [
+      "E-commerce & D2C",
+      "EdTech & Online Learning"
+     ]
+    },
+    {
+     "name": "NDAs and confidentiality frameworks",
+     "brief": "Mutual and one-way non-disclosure agreements at productised flat fees, plus multi-party confidentiality frameworks for transactions, joint ventures, and partnerships.",
+     "where": "Standard mutual NDAs \u00b7 One-way NDAs for evaluation processes \u00b7 Multi-party NDAs for diligence rooms \u00b7 Confidentiality clauses in employment and contractor agreements",
+     "fee": "Fixed fee",
+     "jur": [
+      "India"
+     ],
+     "ind": [
+      "SaaS & Cloud Software",
+      "E-commerce & D2C",
+      "Fashion & Apparel",
+      "Influencer, Creator & Personal Brand"
+     ]
+    },
+    {
+     "name": "Distribution, reseller, and partnership agreements",
+     "brief": "Cross-border commercial agreements for distribution, reselling, agency, white-label, and strategic partnership relationships. Critical attention to territory definitions, exclusivity, performance obligations, IP ownership, termination triggers, and post-termination restrictions.",
+     "where": "Distribution agreements (exclusive / non-exclusive / selective) \u00b7 Reseller agreements for SaaS \u00b7 Agency agreements aware of EU Commercial Agents Directive \u00b7 White-label partnership frameworks",
+     "fee": "Fixed fee",
+     "jur": [
+      "United Kingdom",
+      "United Arab Emirates",
+      "India",
+      "Singapore"
+     ],
+     "ind": [
+      "SaaS & Cloud Software",
+      "EdTech & Online Learning",
+      "Manufacturing & Industrial"
+     ]
+    },
+    {
+     "name": "Employment and contractor documentation",
+     "brief": "Employment contracts, contractor agreements, employee handbooks, restrictive covenants, IP assignments, and equity / share-option documentation. Cross-border specialism with IR35 classification awareness for UK contractors.",
+     "where": "Employment contracts (employee, fixed-term, zero-hours) \u00b7 International contractor agreements with IR35 classification analysis \u00b7 Employee handbooks covering IP, data protection, AI use, harassment \u00b7 Restrictive covenants with collaborating-solicitor enforceability opinions",
+     "fee": "Fixed fee",
+     "jur": [
+      "United Kingdom"
+     ],
+     "ind": [
+      "SaaS & Cloud Software",
+      "E-commerce & D2C",
+      "Fashion & Apparel",
+      "Influencer, Creator & Personal Brand"
+     ]
+    },
+    {
+     "name": "Investment and founder documentation",
+     "brief": "Founders agreements, shareholders agreements, SAFEs, convertible notes, term sheet review, and investor diligence support. Substantive investment-vehicle advice for UK SEIS/EIS and US- equivalent regimes is handled by regulated solicitors and accountants.",
+     "where": "Founders agreements for two-and three-founder startups \u00b7 SAFE and convertible note review \u00b7 Shareholders agreements with drag-along, tag-along, pre-emption \u00b7 Investment diligence packs for fundraising rounds",
+     "fee": "Fixed fee",
+     "jur": [
+      "United Kingdom"
+     ],
+     "ind": [
+      "SaaS & Cloud Software",
+      "E-commerce & D2C",
+      "Fashion & Apparel",
+      "Influencer, Creator & Personal Brand"
+     ]
+    },
+    {
+     "name": "IP and technology licensing",
+     "brief": "Cross-border IP licensing agreements covering trademarks, copyrights, designs, know-how, and software. Particular attention to royalty structures, quality control, sublicensing, audit rights, and termination triggers.",
+     "where": "Cross-border trademark licensing \u00b7 Software licensing (commercial, open-source- adjacent) \u00b7 Music synchronisation and master-use licensing \u00b7 Brand licensing with quality control provisions",
+     "fee": "Fixed fee",
+     "jur": [
+      "United Kingdom",
+      "United Arab Emirates",
+      "India",
+      "Singapore"
+     ],
+     "ind": [
+      "SaaS & Cloud Software",
+      "Fashion & Apparel",
+      "Influencer, Creator & Personal Brand",
+      "Film, TV, Podcast & Audio Production",
+      "Gaming, Esports & Interactive Entertainment",
+      "Hospitality, Restaurants & Travel",
+      "EdTech & Online Learning",
+      "Real Estate & Property Investment"
+     ]
+    },
+    {
+     "name": "Dispute resolution and pre-litigation work",
+     "brief": "Pre-action correspondence, cease-and-desist programmes, settlement negotiation, mediation coordination, and choice-of-law / dispute-resolution clause drafting in commercial agreements. Substantive litigation work is handled by regulated solicitors with our paralegal support.",
+     "where": "Pre-action protocol correspondence \u00b7 Cease and desist letters and follow-up programmes \u00b7 Settlement deed drafting \u00b7 Mediation preparation and coordination. What You Receive",
+     "fee": "Fixed fee",
+     "jur": [
+      "India"
+     ],
+     "ind": [
+      "SaaS & Cloud Software",
+      "E-commerce & D2C",
+      "Fashion & Apparel",
+      "Influencer, Creator & Personal Brand"
+     ]
+    }
+   ]
+  },
+  {
+   "num": "08",
+   "title": "Ongoing Compliance & Annual Reporting",
+   "sub": "The recurring filings that keep companies in good standing.",
+   "services": [
+    {
+     "name": "UK Companies House compliance",
+     "brief": "Confirmation statements, statutory accounts coordination, PSC register updates, director and shareholder change filings, charges register management, and reinstatement of struck-off companies where required.",
+     "where": "Annual confirmation statement (CS01) \u00b7 PSC register updates with regular reconciliation \u00b7 Director appointment / cessation filings (AP01 / TM01) \u00b7 Allotment of shares (SH01) filings",
+     "fee": "Annual subscription",
+     "jur": [
+      "United Kingdom",
+      "India"
+     ],
+     "ind": [
+      "NGO, Charity & Social Enterprise"
+     ]
+    },
+    {
+     "name": "US state annual reports and franchise tax",
+     "brief": "US state annual reports across all major commercial states, plus state franchise tax filings where applicable. Particular attention to Delaware franchise tax (assumed-par-value method to minimise cost) and California minimum franchise tax.",
+     "where": "Delaware annual report and franchise tax \u00b7 California Statement of Information and minimum franchise tax \u00b7 Texas Public Information Report and franchise tax \u00b7 New York biennial statement",
+     "fee": "Annual subscription",
+     "jur": [
+      "Delaware",
+      "Texas",
+      "Florida",
+      "California",
+      "New York"
+     ],
+     "ind": [
+      "NGO, Charity & Social Enterprise"
+     ]
+    },
+    {
+     "name": "FinCEN BOI and beneficial-ownership compliance",
+     "brief": "US FinCEN Beneficial Ownership Information reporting under the Corporate Transparency Act \u2014 initial reports plus updates within 30 days of beneficial-ownership changes. Equivalent regimes across UK PSC, EU UBO, UAE UBO, and Indian SBO.",
+     "where": "FinCEN BOI initial reports \u00b7 BOI updates following ownership changes \u00b7 PSC register reconciliation and Companies House confirmation \u00b7 EU member state UBO filings",
+     "fee": "Annual subscription",
+     "jur": [
+      "United Kingdom",
+      "United Arab Emirates",
+      "India"
+     ],
+     "ind": [
+      "NGO, Charity & Social Enterprise"
+     ]
+    },
+    {
+     "name": "Canadian and Australian compliance",
+     "brief": "Canadian federal and provincial annual returns; Australian ASIC annual reviews, director ID compliance, and ATO ongoing tax obligations. Particular attention to director-residency requirements.",
+     "where": "Canadian federal annual return \u00b7 provincial annual returns \u00b7 Australian ASIC annual review \u00b7 Director ID compliance",
+     "fee": "Annual subscription",
+     "jur": [
+      "India",
+      "Australia",
+      "Canada"
+     ],
+     "ind": [
+      "NGO, Charity & Social Enterprise"
+     ]
+    },
+    {
+     "name": "UAE compliance: license renewals and substance",
+     "brief": "UAE mainland and free-zone license renewals, immigration card and visa renewals, ESR notifications, UBO declarations, and ongoing AML compliance for regulated activities.",
+     "where": "Annual trade license renewals (mainland and free zones) \u00b7 ESR notifications and reports \u00b7 UBO declarations under Cabinet Decision 58 \u00b7 AML compliance for DNFBPs and regulated activities",
+     "fee": "Annual subscription",
+     "jur": [
+      "United Arab Emirates"
+     ],
+     "ind": [
+      "Web3, Crypto & Digital Assets",
+      "Hospitality, Restaurants & Travel",
+      "Financial Services & FinTech",
+      "NGO, Charity & Social Enterprise"
+     ]
+    },
+    {
+     "name": "India ROC and statutory compliance",
+     "brief": "Indian Pvt Ltd, LLP, and Section 8 Company ROC filings, DIR-3 KYC for directors, statutory audit coordination, FEMA / RBI compliance for foreign-owned entities, and annual FLA returns.",
+     "where": "MGT-7 annual return \u00b7 AOC-4 financial statements \u00b7 DIR-3 KYC for directors (annual) \u00b7 Foreign Liabilities and Assets (FLA) annual return for foreign-owned entities",
+     "fee": "Annual subscription",
+     "jur": [
+      "India"
+     ],
+     "ind": [
+      "Real Estate & Property Investment",
+      "Financial Services & FinTech",
+      "NGO, Charity & Social Enterprise"
+     ]
+    },
+    {
+     "name": "Multi-jurisdictional managed compliance calendars",
+     "brief": "For multi-entity groups, we maintain a single managed calendar tracking every deadline across every entity. Proactive alerts go out weeks before deadlines.",
+     "where": "Single calendar across UK, US, UAE, and Singapore entities \u00b7 Quarterly compliance status reports \u00b7 Proactive deadline alerts (60, 30, 14 days) \u00b7 Annual full-portfolio compliance health check",
+     "fee": "Annual subscription",
+     "jur": [
+      "United Kingdom",
+      "United Arab Emirates",
+      "Singapore"
+     ],
+     "ind": [
+      "Healthcare, Wellness & Cosmetics",
+      "NGO, Charity & Social Enterprise"
+     ]
+    },
+    {
+     "name": "Remedial work and reinstatement",
+     "brief": "Where compliance has lapsed \u2014 missed filings, struck-off companies, late beneficial-ownership reports \u2014 we handle the remedial work. This is more expensive than ongoing compliance but often less expensive than the alternatives (losing banking relationships, M&A disruption, regulatory enforcement).",
+     "where": "Reinstatement of UK companies struck off Companies House register \u00b7 Late confirmation statement filings with penalty mitigation \u00b7 Catch-up FinCEN BOI reporting \u00b7 Backdated PSC register reconciliation. What You Receive",
+     "fee": "Annual subscription",
+     "jur": [
+      "United Kingdom"
+     ],
+     "ind": [
+      "Financial Services & FinTech",
+      "NGO, Charity & Social Enterprise"
+     ]
+    }
+   ]
+  }
+ ],
+ "packs": [
+  {
+   "name": "US Startup Launch Pack",
+   "desc": "Delaware or Wyoming entity, EIN, registered agent, founders documentation with 83(b) support, and a bank-ready pack. One engagement letter, one fee.",
+   "meta": "Setup bundle \u00b7 10\u201315 business days"
+  },
+  {
+   "name": "UK Company Launch Pack",
+   "desc": "Companies House incorporation, registered office, HMRC corporation tax and VAT registration, PSC register setup, and a UK banking application pack.",
+   "meta": "Setup bundle \u00b7 5\u201310 business days"
+  },
+  {
+   "name": "UAE Free Zone Launch Pack",
+   "desc": "Free zone selection, trade licence, establishment card, visa quota planning, and mainland-versus-free-zone structuring advice before you commit.",
+   "meta": "Setup bundle \u00b7 15\u201325 business days"
+  },
+  {
+   "name": "SaaS Legal Stack",
+   "desc": "Terms of Service, Privacy and Cookie Policy, AUP, MSA and order form, DPA, SLA, EULA, mutual NDA, contractor agreements, and founders IP assignment deeds.",
+   "meta": "Fixed fee"
+  },
+  {
+   "name": "Global Trademark Programme",
+   "desc": "Clearance searching, specification drafting, and filing across UKIPO, USPTO, EUIPO, and Madrid Protocol designations, with docketing and renewals.",
+   "meta": "Fixed fee per class"
+  },
+  {
+   "name": "Compliance-as-a-Service",
+   "desc": "One calendar across every entity you own. Annual returns, franchise tax, BOI, licence renewals, and statutory registers, filed by us before they fall due.",
+   "meta": "Annual subscription"
+  }
+ ],
+ "sectors": [
+  {
+   "name": "SaaS & Cloud Software",
+   "desc": "For SaaS founders launching, scaling, or fundraising"
+  },
+  {
+   "name": "E-commerce & D2C",
+   "desc": "For D2C and e-commerce sellers on Shopify, Amazon, and beyond"
+  },
+  {
+   "name": "Fashion & Apparel",
+   "desc": "For Fashion brands, emerging designers, and accessory labels"
+  },
+  {
+   "name": "Influencer, Creator & Personal Brand",
+   "desc": "For Content creators, influencers, talent agencies, and personal brands"
+  },
+  {
+   "name": "Film, TV, Podcast & Audio Production",
+   "desc": "For Independent producers, podcast networks, and production companies"
+  },
+  {
+   "name": "Web3, Crypto & Digital Assets",
+   "desc": "For Web3 projects, DeFi protocols, NFT platforms, and crypto-native businesses"
+  },
+  {
+   "name": "Gaming, Esports & Interactive Entertainment",
+   "desc": "For Game studios, esports teams, gaming brands, and interactive media"
+  },
+  {
+   "name": "Hospitality, Restaurants & Travel",
+   "desc": "For Restaurants, hotels, hospitality groups, travel businesses"
+  },
+  {
+   "name": "Healthcare, Wellness & Cosmetics",
+   "desc": "For Healthcare brands, wellness products, supplements, and cosmetics"
+  },
+  {
+   "name": "EdTech & Online Learning",
+   "desc": "For EdTech platforms, online learning, and education businesses"
+  },
+  {
+   "name": "Real Estate & Property Investment",
+   "desc": "For Property investors, developers, short-stay operators, and property tech"
+  },
+  {
+   "name": "Financial Services & FinTech",
+   "desc": "For FinTech businesses, payment service providers, lending platforms, and wealth-tech"
+  },
+  {
+   "name": "Manufacturing & Industrial",
+   "desc": "For Product manufacturers, OEMs, industrial businesses, and consumer-goods makers"
+  },
+  {
+   "name": "Pharmaceutical & Life Sciences",
+   "desc": "For Pharma businesses, biotech startups, medical device makers, and health-tech"
+  },
+  {
+   "name": "NGO, Charity & Social Enterprise",
+   "desc": "For Charities, non-profits, social enterprises, and impact-driven organisations"
+  }
+ ],
+ "regions": [
+  {
+   "name": "United States 13 jurisdictions",
+   "items": [
+    {
+     "name": "Wyoming",
+     "desc": "The gold standard for privacy and asset protection."
+    },
+    {
+     "name": "Delaware",
+     "desc": "The default for venture-backed startups and IPO-track companies."
+    },
+    {
+     "name": "Nevada",
+     "desc": "Privacy and asset protection without the publication hassle."
+    },
+    {
+     "name": "Texas",
+     "desc": "Business-friendly, no state income tax, the second-largest US economy."
+    },
+    {
+     "name": "Florida",
+     "desc": "No state income tax, simple rules, gateway to Latin America."
+    },
+    {
+     "name": "California",
+     "desc": "The largest US economy, the toughest US compliance regime."
+    },
+    {
+     "name": "New York",
+     "desc": "The financial capital. Prestige and complexity in equal measure."
+    },
+    {
+     "name": "New Jersey",
+     "desc": "NYC-adjacent business address at lower cost."
+    },
+    {
+     "name": "Illinois",
+     "desc": "Chicago: a Midwest hub for finance, manufacturing, food, and B2B tech."
+    },
+    {
+     "name": "Massachusetts",
+     "desc": "Boston: the US capital of biotech, life sciences, and edtech."
+    },
+    {
+     "name": "Washington",
+     "desc": "Seattle: home to Microsoft, Amazon, and the Pacific Northwest tech engine."
+    },
+    {
+     "name": "Colorado",
+     "desc": "Denver: a fast-growing tech, outdoor lifestyle, and cannabis hub."
+    },
+    {
+     "name": "Georgia",
+     "desc": "Atlanta: a Southeast hub for logistics, film, fintech, and music."
+    }
+   ]
+  },
+  {
+   "name": "Europe 11 jurisdictions",
+   "items": [
+    {
+     "name": "United Kingdom",
+     "desc": "Our home base. The most-trusted jurisdiction for international business."
+    },
+    {
+     "name": "Germany",
+     "desc": "The largest EU economy. Manufacturing, automotive, B2B, industrial."
+    },
+    {
+     "name": "Ireland",
+     "desc": "12.5% corporate tax. English-speaking. The default European HQ for US tech."
+    },
+    {
+     "name": "Netherlands",
+     "desc": "IP and holding company specialists. Strong tax treaty network."
+    },
+    {
+     "name": "Luxembourg",
+     "desc": "The premier EU jurisdiction for funds, holding, and sophisticated structures."
+    },
+    {
+     "name": "Estonia",
+     "desc": "e-Residency: fully-remote EU company management. Tax only on distributed profits."
+    },
+    {
+     "name": "Cyprus",
+     "desc": "12.5% corporate tax with EU access. Common-law-influenced legal system."
+    },
+    {
+     "name": "France",
+     "desc": "The 2nd-largest EU economy. Luxury, fashion, food, and growing tech."
+    },
+    {
+     "name": "Spain",
+     "desc": "The 4th-largest EU economy. Gateway to Latin America."
+    },
+    {
+     "name": "Switzerland",
+     "desc": "Premier IP, holding, and watch / luxury jurisdiction. Stable, prestigious, neutral."
+    },
+    {
+     "name": "Portugal",
+     "desc": "Lisbon\u2019s tech ecosystem. Lower-cost EU access. Lifestyle attraction for talent."
+    }
+   ]
+  },
+  {
+   "name": "Middle East & EMEA 2 jurisdictions",
+   "items": [
+    {
+     "name": "United Arab Emirates",
+     "desc": "Mainland or free zone. Hub for MENA, South Asia, and Africa."
+    },
+    {
+     "name": "T\u00fcrkiye",
+     "desc": "Strategic crossroads of Europe, Middle East, and Central Asia. Large domestic market."
+    }
+   ]
+  },
+  {
+   "name": "Asia-Pacific 10 jurisdictions",
+   "items": [
+    {
+     "name": "India",
+     "desc": "A market of 1.4 billion. Our other home base."
+    },
+    {
+     "name": "Singapore",
+     "desc": "Asia-Pacific\u2019s premier business hub. 17% corporate tax. Global credibility."
+    },
+    {
+     "name": "Hong Kong",
+     "desc": "Territorial tax system. Free port. The historic gateway to mainland China."
+    },
+    {
+     "name": "China",
+     "desc": "The world\u2019s second-largest economy. WFOE, JV, or rep office."
+    },
+    {
+     "name": "Japan",
+     "desc": "The third-largest economy. High barriers, high loyalty, long-term reward."
+    },
+    {
+     "name": "Malaysia",
+     "desc": "English-language common-law system. Labuan free zone. Competitive tax regime."
+    },
+    {
+     "name": "Thailand",
+     "desc": "Southeast Asian manufacturing hub. Strong tourism. BOI incentives for priority sectors."
+    },
+    {
+     "name": "Vietnam",
+     "desc": "The fastest-growing Southeast Asian economy. Manufacturing destination of choice."
+    },
+    {
+     "name": "Indonesia",
+     "desc": "Southeast Asia\u2019s largest economy. 280m consumers. Complex but essential."
+    },
+    {
+     "name": "Australia",
+     "desc": "Gateway to the Asia-Pacific. Stable, sophisticated, well-regulated."
+    }
+   ]
+  },
+  {
+   "name": "Americas & Offshore 2 jurisdictions",
+   "items": [
+    {
+     "name": "Canada",
+     "desc": "A stable, business-friendly jurisdiction with unique federal-provincial choice."
+    },
+    {
+     "name": "Offshore (BVI, Cayman, Seychelles, Mauritius)",
+     "desc": "Holding, fund, and asset-protection structures through local partners."
+    }
+   ]
+  }
+ ]
+}
