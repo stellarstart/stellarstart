@@ -1054,6 +1054,37 @@ p:last-child{ margin-bottom:0; }
   width:24px; height:24px; background:#00b67a; border-radius:3px;
   display:grid; place-items:center; color:#fff; font-size:14px; line-height:1;
 }
+
+.tp__star {
+  width: 24px;
+  height: 24px;
+  background: #00b67a;
+  border-radius: 3px;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.tp__star--half {
+  position: relative;
+  background: #dcdce6; /* Empty half background */
+  overflow: hidden;
+}
+
+.tp__star--half::before {
+  content: "★";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background: #00b67a;
+  color: #fff;
+  display: grid;
+  place-items: center;
+}
 .tp p{ margin:0; color:var(--muted); font-size:14.5px; max-width:56ch; }
 @media (max-width:1000px){
   .calc{ grid-template-columns:1fr; }
@@ -1141,7 +1172,7 @@ p:last-child{ margin-bottom:0; }
     <h1>Wherever business goes, we&rsquo;re <em>already there.</em></h1>
     <p class="lede lede--tight">Strategic, seamless, borderless legal and business solutions, from New York to Nairobi. We move like a startup and think like a global advisory.</p>
     <div class="btn-row">
-      <a class="btn btn--solid" href="contact.html">Consult with us</a>
+      <a class="btn btn--solid" data-book href="#">Consult with us</a>
       <a class="btn btn--ghost" href="services.html">Explore services</a>
     </div>
 
@@ -1160,7 +1191,7 @@ p:last-child{ margin-bottom:0; }
   <div class="wrap">
     <div class="presence__head">
       <p class="eyebrow">Our presence &middot; 24 countries, one team</p>
-      <p class="presence__note">Hover any city &middot; <b>6 desks, 22 connected cities</b></p>
+      <!-- <p class="presence__note">Hover any city &middot; <b>6 desks, 22 connected cities</b></p> -->
     </div>
     <div class="map" data-map></div>
   </div>
@@ -1186,7 +1217,7 @@ p:last-child{ margin-bottom:0; }
       <p>Our core team is supported by <strong>StellarPartners</strong>, local practitioners who carry the jurisdictional detail so you get one accountable point of contact instead of five separate retainers.</p>
       <div class="btn-row">
         <a class="btn btn--ghost btn--sm" href="about.html">More about us</a>
-        <a class="btn btn--solid btn--sm" href="contact.html">Consult with us</a>
+        <a class="btn btn--solid btn--sm" data-book href="#">Consult with us</a>
       </div>
     </div>
   </div>
@@ -1421,31 +1452,31 @@ p:last-child{ margin-bottom:0; }
           <div class="crew__dp"><span aria-hidden="true">AG</span></div>
           <h3 class="crew__name">Abhishek Gupta</h3>
           <p class="crew__role">Founding Director &middot; IP, GDPR, EU AI Act, FDA, Patent &amp; Trademark Law</p>
-          <p class="crew__where">Poole, United Kingdom</p>
+          <!-- <p class="crew__where">Poole, United Kingdom</p> -->
           <p class="crew__bio">The founding force of StellarStart GLOBAL. Compliance and IP lawyer specialising in GDPR, the EU AI Act, FDA regulation, patents and trademarks, with 193 completed engagements and a 100% job success score.</p>
           <ul class="crew__subs"><li>Patents</li><li>Trademarks</li><li>GDPR</li><li>EU AI Act</li><li>FDA</li></ul>
-          <div class="crew__stats">
+          <!-- <div class="crew__stats">
             <div class="crew__stat"><b>193</b><span>Jobs</span></div>
             <div class="crew__stat"><b>100%</b><span>Success</span></div>
             <div class="crew__stat"><b>839h</b><span>Billed</span></div>
           </div>
-          <a class="txtlink" href="#">View on Upwork &rarr;</a>
+          <a class="txtlink" href="#">View on Upwork &rarr;</a> -->
         </article>
 
       <article class="crew__p" data-reveal>
           <!-- swap the span for <img src="team/xxx.jpg" alt="Aniket Rastogi"> when photos are ready -->
           <div class="crew__dp"><span aria-hidden="true">AR</span></div>
           <h3 class="crew__name">Aniket Rastogi</h3>
-          <p class="crew__role">Director &middot; International Business Law, Tax Attorney &amp; Startup Consultant</p>
-          <p class="crew__where">Ghaziabad, India</p>
+          <p class="crew__role">Director &middot; International Business Law, &amp; Startup Consultant</p>
+          <!-- <p class="crew__where">Ghaziabad, India</p> -->
           <p class="crew__bio">Specialist in international business law, cross-border taxation and startup consulting. Advises founders and enterprises on entity structuring, tax treaties and regulatory strategy across 20+ jurisdictions.</p>
           <ul class="crew__subs"><li>Tax treaties</li><li>Entity structuring</li><li>Regulatory strategy</li><li>Startup advisory</li></ul>
-          <div class="crew__stats">
+          <!-- <div class="crew__stats">
             <div class="crew__stat"><b>6</b><span>Jobs</span></div>
             <div class="crew__stat"><b>100%</b><span>Success</span></div>
             <div class="crew__stat"><b>5.0&#9733;</b><span>Rating</span></div>
           </div>
-          <a class="txtlink" href="#">View on Upwork &rarr;</a>
+          <a class="txtlink" href="#">View on Upwork &rarr;</a> -->
         </article>
 
       <article class="crew__p" data-reveal>
@@ -1453,15 +1484,15 @@ p:last-child{ margin-bottom:0; }
           <div class="crew__dp"><span aria-hidden="true">TS</span></div>
           <h3 class="crew__name">Tanuja S.</h3>
           <p class="crew__role">Director &middot; International IP &amp; Contract Law</p>
-          <p class="crew__where">Bournemouth, United Kingdom</p>
+          <!-- <p class="crew__where">Bournemouth, United Kingdom</p> -->
           <p class="crew__bio">Expert in international intellectual property and contract law. Drafts and enforces agreements across jurisdictions, manages copyright frameworks, and advises on content monetisation strategies for creators and enterprises worldwide.</p>
           <ul class="crew__subs"><li>Contract drafting</li><li>Copyright frameworks</li><li>Content monetisation</li><li>Cross-border enforcement</li></ul>
-          <div class="crew__stats">
+          <!-- <div class="crew__stats">
             <div class="crew__stat"><b>16</b><span>Jobs</span></div>
             <div class="crew__stat"><b>133h</b><span>Billed</span></div>
             <div class="crew__stat"><b>5.0&#9733;</b><span>Rating</span></div>
           </div>
-          <a class="txtlink" href="#">View on Upwork &rarr;</a>
+          <a class="txtlink" href="#">View on Upwork &rarr;</a> -->
         </article>
 
       <article class="crew__p" data-reveal>
@@ -1469,15 +1500,15 @@ p:last-child{ margin-bottom:0; }
           <div class="crew__dp"><span aria-hidden="true">RS</span></div>
           <h3 class="crew__name">Ranz Saw</h3>
           <p class="crew__role">Paralegal Lead &middot; Pro Se Support, Contracts &amp; Immigration Law</p>
-          <p class="crew__where">London, United Kingdom</p>
+          <!-- <p class="crew__where">London, United Kingdom</p> -->
           <p class="crew__bio">Paralegal specialist handling pro se legal support, contract assistance and immigration law across Indian, US and UK jurisdictions. Delivers meticulous legal documentation and research with a 100% success rate and a 5.0 client rating.</p>
           <ul class="crew__subs"><li>Pro se support</li><li>Legal research</li><li>Immigration</li><li>Contract assistance</li><li>Court documentation</li></ul>
-          <div class="crew__stats">
+          <!-- <div class="crew__stats">
             <div class="crew__stat"><b>21</b><span>Jobs</span></div>
             <div class="crew__stat"><b>100%</b><span>Success</span></div>
             <div class="crew__stat"><b>5.0&#9733;</b><span>Rating</span></div>
           </div>
-          <a class="txtlink" href="#">View on Upwork &rarr;</a>
+          <a class="txtlink" href="#">View on Upwork &rarr;</a> -->
         </article>
 
       <article class="crew__p" data-reveal>
@@ -1485,15 +1516,15 @@ p:last-child{ margin-bottom:0; }
           <div class="crew__dp"><span aria-hidden="true">SS</span></div>
           <h3 class="crew__name">Swarina S.</h3>
           <p class="crew__role">Trademark Lawyer &amp; IP Consultant &middot; USPTO, UKIPO, EUIPO, WIPO, CIPO</p>
-          <p class="crew__where">Manchester, United Kingdom</p>
+          <!-- <p class="crew__where">Manchester, United Kingdom</p> -->
           <p class="crew__bio">Trademark and IP consultant with multi-registry expertise across USPTO, UKIPO, EUIPO, WIPO and CIPO. Handles full lifecycle trademark strategy, from clearance searches and filing through to enforcement and portfolio management globally.</p>
           <ul class="crew__subs"><li>Clearance searches</li><li>Multi-registry filing</li><li>Portfolio management</li><li>Enforcement</li></ul>
-          <div class="crew__stats">
+          <!-- <div class="crew__stats">
             <div class="crew__stat"><b>11</b><span>Jobs</span></div>
             <div class="crew__stat"><b>5.0&#9733;</b><span>Rating</span></div>
             <div class="crew__stat"><b>5+</b><span>Registries</span></div>
           </div>
-          <a class="txtlink" href="#">View on Upwork &rarr;</a>
+          <a class="txtlink" href="#">View on Upwork &rarr;</a> -->
         </article>
 
       <article class="crew__p" data-reveal>
@@ -1501,15 +1532,15 @@ p:last-child{ margin-bottom:0; }
           <div class="crew__dp"><span aria-hidden="true">SY</span></div>
           <h3 class="crew__name">Shatakshi Y.</h3>
           <p class="crew__role">DMCA &amp; Brand Protection Specialist &middot; 3,500+ Global Takedowns</p>
-          <p class="crew__where">London, United Kingdom</p>
+          <!-- <p class="crew__where">London, United Kingdom</p> -->
           <p class="crew__bio">DMCA and brand protection powerhouse with over 3,500 successful global takedowns. Specialises in online infringement removal, brand monitoring and digital IP enforcement across platforms, protecting creators and enterprises worldwide.</p>
           <ul class="crew__subs"><li>DMCA takedowns</li><li>Brand monitoring</li><li>Platform enforcement</li><li>Infringement removal</li></ul>
-          <div class="crew__stats">
+          <!-- <div class="crew__stats">
             <div class="crew__stat"><b>3,500+</b><span>Takedowns</span></div>
             <div class="crew__stat"><b>6</b><span>Jobs</span></div>
             <div class="crew__stat"><b>Global</b><span>Reach</span></div>
           </div>
-          <a class="txtlink" href="#">View on Upwork &rarr;</a>
+          <a class="txtlink" href="#">View on Upwork &rarr;</a> -->
         </article>
 
     </div>
@@ -1553,7 +1584,7 @@ p:last-child{ margin-bottom:0; }
       <h2>Tell us where you are heading. We will tell you what it takes to get there.</h2>
       <p class="lede">A 30-minute scoping call, then a written note setting out options, risks, timelines and a fixed fee where the work allows it.</p>
       <div class="btn-row">
-        <a class="btn btn--solid" href="contact.html">Book a consultation</a>
+        <a class="btn btn--solid" data-book href="#">Book a consultation</a>
         <a class="btn btn--ghost" href="fee.html">See how we charge</a>
       </div>
     </div>
@@ -1579,7 +1610,7 @@ p:last-child{ margin-bottom:0; }
           <span class="tp__stars">
             <span class="tp__star">&#9733;</span><span class="tp__star">&#9733;</span>
             <span class="tp__star">&#9733;</span><span class="tp__star">&#9733;</span>
-            <span class="tp__star">&#9733;</span>
+            <span class="tp__star tp__star--half">&#9733;</span>
           </span>
           <span>Trustpilot</span>
         </div>
@@ -1591,25 +1622,25 @@ p:last-child{ margin-bottom:0; }
 
     <div class="tpgrid">
       <article class="tprev" data-reveal>
-        <span class="tprev__stars" aria-label="5 stars">
+        <!-- <span class="tprev__stars" aria-label="5 stars">
           <span class="tp__star">&#9733;</span>
-        </span>
+        </span> -->
         <p>&ldquo;They flagged a filing deadline we had missed in two jurisdictions and fixed it inside the week. Communication was clear at every step and nothing needed chasing.&rdquo;</p>
         <b>Verified client</b>
         <span>Cross-border SaaS &middot; via Trustpilot</span>
       </article>
       <article class="tprev" data-reveal>
-        <span class="tprev__stars" aria-label="5 stars">
+        <!-- <span class="tprev__stars" aria-label="5 stars">
           <span class="tp__star">&#9733;</span>
-        </span>
+        </span> -->
         <p>&ldquo;Trademark filed across three registries with a renewal calendar we did not have to build ourselves. Fixed fee, agreed up front, no surprises on the invoice.&rdquo;</p>
         <b>Verified client</b>
         <span>D2C brand &middot; via Trustpilot</span>
       </article>
       <article class="tprev" data-reveal>
-        <span class="tprev__stars" aria-label="5 stars">
+        <!-- <span class="tprev__stars" aria-label="5 stars">
           <span class="tp__star">&#9733;</span>
-        </span>
+        </span> -->
         <p>&ldquo;UK entity, VAT registration and banking pack done while we stayed focused on the product. One point of contact throughout, and every date landed when they said it would.&rdquo;</p>
         <b>Verified client</b>
         <span>Fintech founder &middot; via Trustpilot</span>
@@ -2067,7 +2098,7 @@ document.addEventListener('click', function (e) {
 
 /* Booking link used by the floating button and every "Book a call" CTA.
    Replace this single value with your live Calendly event URL. */
-var SS_BOOKING = 'https://calendly.com/stellarstart-global/30min';
+var SS_BOOKING = 'https://calendly.com/tanuja-stellarstart/30min';
 
 /* ------------------------------------------------- 7. floating booking --- */
 (function () {

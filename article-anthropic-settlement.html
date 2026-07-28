@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>About · StellarStart GLOBAL</title>
-<meta name="description" content="UK-headquartered, serving clients in 24+ countries. StellarStart GLOBAL helps startups, creators and enterprises structure, protect and scale across borders.">
+<title>AI and copyright: unpacking the $1.5B Anthropic settlement &middot; StellarStart GLOBAL</title>
+<meta name="description" content="The Anthropic settlement priced acquisition, not use. What the split ruling actually holds, why piracy cost two orders of magnitude more than buying the books, and the four things to change in your AI position this quarter.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&amp;family=Space+Grotesk:wght@400;500;600&amp;display=swap" rel="stylesheet">
@@ -1050,35 +1050,9 @@ p:last-child{ margin-bottom:0; }
 @media (max-width:1000px){ .tpgrid{ grid-template-columns:1fr; } }
 .tp__mark{ display:flex; align-items:center; gap:10px; font-size:16px; font-weight:500; }
 .tp__stars{ display:flex; gap:3px; }
-.tp__star {
-  width: 24px;
-  height: 24px;
-  background: #00b67a;
-  border-radius: 3px;
-  display: grid;
-  place-items: center;
-  color: #fff;
-  font-size: 14px;
-  line-height: 1;
-}
-
-.tp__star--half {
-  position: relative;
-  background: #dcdce6; /* Empty half background */
-  overflow: hidden;
-}
-
-.tp__star--half::before {
-  content: "★";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 50%;
-  height: 100%;
-  background: #00b67a;
-  color: #fff;
-  display: grid;
-  place-items: center;
+.tp__star{
+  width:24px; height:24px; background:#00b67a; border-radius:3px;
+  display:grid; place-items:center; color:#fff; font-size:14px; line-height:1;
 }
 .tp p{ margin:0; color:var(--muted); font-size:14.5px; max-width:56ch; }
 @media (max-width:1000px){
@@ -1134,6 +1108,37 @@ p:last-child{ margin-bottom:0; }
 }
 
 </style>
+<style>
+.keyfacts{
+  display:grid; grid-template-columns:repeat(4,1fr); gap:14px; margin:34px 0 40px;
+}
+.keyfacts div{
+  border:1px solid var(--line); border-radius:14px; padding:20px 18px;
+  background:linear-gradient(180deg, rgba(255,255,255,.045), rgba(255,255,255,.012));
+}
+.keyfacts b{ display:block; font-family:var(--serif); font-size:26px; font-weight:400; letter-spacing:-.02em; }
+.keyfacts span{ display:block; font-size:12px; color:var(--muted-dim); margin-top:7px; line-height:1.4; }
+.pull{
+  margin:32px 0; padding:0 0 0 24px; border-left:2px solid var(--accent);
+  font-family:var(--serif); font-size:22px; line-height:1.35; color:var(--text);
+}
+.steps{ counter-reset:step; list-style:none; padding:0; margin:26px 0 0; }
+.steps li{
+  position:relative; padding:0 0 24px 46px; margin:0;
+  border-bottom:1px solid var(--line-soft); padding-bottom:22px; margin-bottom:22px;
+  color:var(--muted); font-size:15.5px;
+}
+.steps li:last-child{ border-bottom:0; }
+.steps li::before{
+  counter-increment:step; content:counter(step);
+  position:absolute; left:0; top:1px;
+  width:28px; height:28px; border-radius:50%;
+  border:1px solid rgba(207,200,251,.4); color:var(--accent);
+  display:grid; place-items:center; font-size:12.5px;
+}
+.steps b{ color:var(--text); font-weight:500; }
+@media (max-width:800px){ .keyfacts{ grid-template-columns:1fr 1fr; } .pull{ font-size:19px; } }
+</style>
 </head>
 <body>
 
@@ -1141,24 +1146,24 @@ p:last-child{ margin-bottom:0; }
   <div class="nav__in">
     <a class="logo" href="index.html"><b>Stellarstart</b> <span>Global</span></a>
     <nav class="nav__links">
-      <a href="about.html" aria-current="page">About</a>
+      <a href="about.html">About</a>
       <a href="services.html">Services</a>
       <a href="fee.html">Fees</a>
-      <a href="articles.html">Articles &amp; blogs</a>
+      <a href="articles.html" aria-current="page">Articles &amp; blogs</a>
     </nav>
     <div style="display:flex;align-items:center;gap:14px">
       <a class="btn btn--ghost btn--sm" data-book href="#">Consult with us &rarr;</a>
-      <button class="nav__toggle" data-nav-toggle aria-label="Menu">☰</button>
+      <button class="nav__toggle" data-nav-toggle aria-label="Menu">&#9776;</button>
     </div>
   </div>
 </header>
 
-<!-- ============================================================= HERO -->
 <section class="hero hero--page">
   <div class="wrap">
-    <p class="eyebrow">About StellarStart Global</p>
-    <h1>We move ideas across borders &middot; <em>compliantly, and on purpose.</em></h1>
-    <p class="lede">Headquartered in the United Kingdom, delivering in more than 24 countries. We are not a traditional consultancy. We are the execution partner you call when the rules change at the border.</p>
+    <p class="eyebrow">Copyright &amp; AI</p>
+    <h1 style="max-width:22ch;font-size:clamp(32px,4.2vw,52px)">AI and copyright: unpacking the $1.5B Anthropic settlement and what it means for your business</h1>
+    <p class="lede" style="max-width:60ch">The settlement priced acquisition, not use. Here is what the split ruling actually holds, the comparison nobody has run, and the four things to change in your position this quarter.</p>
+    <p class="small dim" style="margin-top:24px">24 July 2026 &middot; 11 min read &middot; StellarStart GLOBAL</p>
     <div class="sitesearch" data-sitesearch>
       <div class="sitesearch__in">
         <input type="search" placeholder="Search the site: trademark, VAT, paralegal, Singapore" aria-label="Search the site" autocomplete="off">
@@ -1166,307 +1171,82 @@ p:last-child{ margin-bottom:0; }
       </div>
       <div class="sitesearch__out" data-ss-out></div>
     </div>
-    <div class="btn-row">
-      <a class="btn btn--solid" data-book href="#">Consult with us</a>
-      <a class="btn btn--ghost" href="services.html">See our practices</a>
-    </div>
   </div>
 </section>
 
-<!-- ============================================================ WHO WE ARE -->
-<section data-reveal-root class="band band--panel pad">
-  <div class="wrap split">
-    <div>
-      <p class="eyebrow">Who we are</p>
-      <h2>One team, one file, every jurisdiction your plan touches.</h2>
-      <div class="stats stats--boxed" style="grid-template-columns:1fr 1fr;margin-top:36px">
-        <div class="stats__cell"><div class="stats__n">2019</div><div class="stats__k">Practising together since</div></div>
-        <div class="stats__cell"><div class="stats__n">24+</div><div class="stats__k">Countries served</div></div>
-        <div class="stats__cell" style="border-bottom:0"><div class="stats__n">3</div><div class="stats__k">Core systems: India, US, UK</div></div>
-        <div class="stats__cell" style="border-bottom:0;border-right:0"><div class="stats__n">150+</div><div class="stats__k">Active and past clients</div></div>
-      </div>
-    </div>
-    <div class="body-copy">
-      <p>StellarStart GLOBAL supports startups, creators and global enterprises through international entity structuring and formation, intellectual property protection, cross-border taxation, regulatory compliance and digital innovation work.</p>
-      <p>Whether it is launching in a new market, protecting a brand name you have already built a following around, working through the grey areas of Web3, or getting ahead of compliance for AI, blockchain, smart contracts and crypto assets, we bring structure and speed to the next move.</p>
-      <p>All of it is powered by <strong>StellarPartners</strong>, our network of local practitioners who supply jurisdiction-specific insight while we stay accountable for the outcome. You brief one team. We handle the coordination.</p>
-      <p>Our work also gets checked. Filings, drafts and research memos pass through a second reviewer before they reach you, because a missed limitation period or a wrongly classed goods description is not a small mistake.</p>
-    </div>
-  </div>
-</section>
-
-<!-- ============================================================ OUR STORY -->
-<section class="band band--deep pad">
+<section class="band band--panel pad">
   <div class="wrap">
-    <div class="split" style="align-items:start">
-      <div>
-        <p class="eyebrow">Our story</p>
-        <h2>Ambition should not stop at a border.</h2>
-        <p class="lede">Founders were not being slowed down by a lack of potential. They were being slowed down by not knowing what to do, when, where, and in what order.</p>
+    <div class="doc__body" style="margin:0 auto">
+
+      <p class="lede" style="max-width:64ch;margin:0 0 34px">The largest publicly reported copyright recovery in history received final approval on 21 July 2026. Almost every summary of it says the same two things: training AI on books is fair use, and piracy is not. Both are true, and neither is the useful part.</p>
+      <p>The useful part is a number nobody seems to have run, a claims statistic that tells you more about copyright risk than the judgment does, and one term of the settlement that quietly gave Anthropic the thing it most needed.</p>
+
+      <div class="keyfacts">
+        <div><b>$1.5B</b><span>Settlement fund</span></div>
+        <div><b>~500,000</b><span>Works in the class</span></div>
+        <div><b>$3,000</b><span>Per work</span></div>
+        <div><b>91%</b><span>Eligible claimants who filed</span></div>
       </div>
-      <div>
-        <p class="body-copy">These were the questions that kept coming back:</p>
-        <ul style="list-style:none;padding:0;margin:20px 0 0;border-top:1px solid var(--line)">
-          <li style="padding:15px 0;border-bottom:1px solid var(--line);color:var(--muted)">Should this be a corporation, an LLC, an LLP or a private limited company?</li>
-          <li style="padding:15px 0;border-bottom:1px solid var(--line);color:var(--muted)">Is my intellectual property actually protected outside my home market?</li>
-          <li style="padding:15px 0;border-bottom:1px solid var(--line);color:var(--muted)">Which jurisdiction makes the most tax sense, and what does it cost to be wrong?</li>
-          <li style="padding:15px 0;border-bottom:1px solid var(--line);color:var(--muted)">How do I trade globally without triggering a permanent establishment?</li>
-          <li style="padding:15px 0;border-bottom:1px solid var(--line);color:var(--muted)">Is this business GDPR-compliant, and what changes under India&rsquo;s DPDP Act?</li>
-        </ul>
-        <p class="body-copy" style="margin-top:24px">They were not questions. They were roadblocks. So we built a support system rather than another consultancy: one that clears the fog, reduces friction, and lets builders move without second-guessing every step. Behind it sits a trusted ecosystem of StellarPartners who bring local expertise to a global strategy. Faster launches, stronger protection, smarter international scale.</p>
+
+      <h2>What actually happened</h2>
+      <p>Three authors, Andrea Bartz, Charles Graeber and Kirk Wallace Johnson, sued Anthropic over the corpus behind Claude. The case produced two separate events, and conflating them is where most analysis goes wrong.</p>
+      <h3>Event one, 23 June 2025</h3>
+      <p>Judge William Alsup granted partial summary judgment. Training large language models on books was fair use, and not marginally: the court called the purpose &ldquo;transformative, spectacularly so.&rdquo; Alsup went further and held that buying millions of print books, stripping the bindings, cutting the pages and scanning them into machine-readable form was also fair use. Destructive scanning of lawfully purchased copies passed.</p>
+      <p>What failed was the library. Anthropic had also downloaded roughly seven million book files from Library Genesis and the Pirate Library Mirror and kept them in a permanent central repository. Alsup refused to let the downstream training use launder the acquisition. Holding pirated copies was not fair use, and that question went to trial.</p>
+      <h3>Event two, September 2025 to July 2026</h3>
+      <p>Rather than try the piracy claim, Anthropic settled for $1.5 billion. Alsup granted preliminary approval on 25 September 2025. Class counsel sought roughly $300 million in fees, about 20 per cent of the fund, in December 2025. Final approval came from Judge Araceli Mart&iacute;nez-Olgu&iacute;n on 21 July 2026 in a 23-page order, after distributions had been calculated in June. Around 500,000 works qualified, at approximately $3,000 each.</p>
+      <p><strong>So: the ruling was split, and only the losing half was bought out.</strong></p>
+
+      <h2>The number nobody has run</h2>
+      <p>Statutory damages under 17 U.S.C. &sect; 504(c) run from $750 to $30,000 per work, rising to $150,000 per work where infringement is wilful. Anthropic downloaded around seven million files. Even confining exposure to the roughly 500,000 works that ultimately qualified for the class, the theoretical wilful maximum was in the region of $75 billion.</p>
+      <p>Against that ceiling, $1.5 billion is about two per cent. That is why the market read the settlement as cheap, and why Anthropic&rsquo;s share of the news cycle was so calm.</p>
+      <p>Now run the comparison that matters more.</p>
+      <p>Alsup blessed the alternative path in the same ruling. Anthropic could have bought the books. Used and remaindered print copies bought in bulk cost somewhere in the range of $3 to $15 each. Take the midpoint and add generous provision for logistics, cutting and scanning, and acquiring 500,000 titles legitimately lands in the region of $5 million to $15 million.</p>
+      <blockquote class="pull">The piracy route cost $1.5 billion. On these assumptions, taking the free copies cost roughly one hundred to three hundred times what paying for them would have cost, for the same corpus, with the same fair use outcome at the end of it.</blockquote>
+      <p>That figure is an estimate built on public numbers and stated assumptions rather than a disclosed cost, and the real internal comparison will differ. But the direction is not close, and it reframes the entire compliance conversation. The question for any organisation building a training set is no longer &ldquo;will fair use protect us.&rdquo; It is &ldquo;why would we take the discount that costs two orders of magnitude more.&rdquo;</p>
+
+      <h2>The 91 per cent that should change how you think about risk</h2>
+      <p>Anthropic reports that 91 per cent of eligible rights holders filed a claim, with more than 440,000 works claimed out of roughly 500,000.</p>
+      <p>For anyone who has been near a consumer class action, that number is astonishing. Claim rates in the low single digits are normal. Rates above 20 per cent are unusual enough to be remarked on. Ninety-one per cent is close to a total muster of an entire class.</p>
+      <p>It happened because books are the best-catalogued creative works in existence. They have ISBNs. They have registration records at the Copyright Office. They have publishers with rights databases, and they have organised advocacy in the Authors Guild and the Association of American Publishers, both of which pushed authors toward the claims process.</p>
+      <blockquote class="pull">Copyright exposure does not scale with how much you took. It scales with how identifiable and how organised the owners are.</blockquote>
+      <p>A corpus of books is the highest-risk material on earth to take without permission, not because books are more protected in law, but because every single owner can be found, matched and mobilised. Scraped forum posts, unattributed images, orphaned blog archives and translated text sit at the other end of that spectrum: legally just as protected, practically far less enforceable, because there is no registry, no trade body and no way to build a class list.</p>
+      <p>For a rights holder, the inversion of that principle is the cheapest insurance in intellectual property, and almost nobody buys it. Section 412 of the Copyright Act conditions statutory damages and attorney&rsquo;s fees on registration before the infringement began, or within three months of first publication. Unregistered works were not what made this class work. Identifiable, registered works were. Registration is what converts a creator from &ldquo;no realistic claim&rdquo; into &ldquo;$3,000 per work, paid without a trial.&rdquo;</p>
+
+      <h2>What the settlement deliberately does not do</h2>
+      <h3>It sets no binding precedent</h3>
+      <p>A settlement resolves a dispute; it does not create law. But notice the asymmetry. Alsup&rsquo;s summary judgment ruling, the half favourable to AI developers, survives as persuasive authority in the Northern District of California and beyond. The half that went against Anthropic never reached a verdict, so there is no damages award, no appellate opinion and no published finding of wilfulness for anyone to cite. The industry kept the useful ruling and paid to erase the dangerous one. Read that way, $1.5 billion looks less like a defeat and more like the price of a very specific insurance policy.</p>
+      <h3>It does not un-train the model</h3>
+      <p>Anthropic agreed to destroy the pirated files. It did not agree to retrain Claude without whatever those files contributed, and nothing in copyright law currently compels model deletion as a remedy. The settlement implicitly accepts a proposition of enormous commercial value: the copies were unlawful, the learning derived from them stays. Every AI developer watching this case took that inference away.</p>
+      <h3>It does not release output claims</h3>
+      <p>The Bartz class was built on inputs, on acquisition and retention of files. What a model emits is a separate question, and that is where the frontier has moved. In January 2026 the court in the New York Times litigation ordered OpenAI to produce twenty million output logs. Andersen v. Stability AI is listed for jury trial on 8 September 2026. Disney and Universal v. Midjourney is working through a discovery schedule running into 2027. None of those turn primarily on how the corpus was assembled.</p>
+
+      <h2>The sleeper term</h2>
+      <p>The destruction obligation reads as housekeeping. It is not.</p>
+      <p>Destroying a pirated corpus properly means locating every derivative artefact: the original download, the deduplicated set, the tokenised shards, the backups, the snapshots held by cloud providers, the copies on researchers&rsquo; machines, and any embeddings or indexes derived from the files. Most organisations that ingested large datasets between 2021 and 2023 cannot produce a reliable inventory of where those files propagated, because nobody was tracking lineage at the time.</p>
+      <p>There is a second problem. Destruction obligations sit awkwardly beside litigation holds. A company facing parallel claims elsewhere may be required to preserve exactly the material it has agreed to destroy. Sequencing that without spoliation exposure is a genuine legal and engineering exercise, not a checkbox.</p>
+
+      <h2>What to do about it this quarter</h2>
+      <ol class="steps">
+        <li><b>Ask vendors the question that works.</b> &ldquo;Do you train on copyrighted material&rdquo; is useless; the answer is always some version of &ldquo;we respect intellectual property.&rdquo; The question that produces information is: <em>can you produce an acquisition record for your training corpus, and specifically, did any shadow-library material enter it, and what was done with it.</em> Provenance, not permission, is the compliance artefact this case created.</li>
+        <li><b>Read your indemnity for scope, not for existence.</b> A large share of enterprise AI indemnities cover claims arising from outputs only. Bartz was an input case. Check which one you have, whether it survives fine-tuning, and what the cap is. An indemnity capped at twelve months of fees is not protection against a class action.</li>
+        <li><b>Treat your own fine-tuning corpus as your liability.</b> Whatever your vendor did, the material you upload to fine-tune, ground or retrieve against is yours. Licensed databases, scraped competitor content and customer documents used outside their original purpose all sit on your side of the line.</li>
+        <li><b>If you own rights, register them.</b> Timely registration is the difference between a claim worth nothing in practice and one a class administrator can pay at $3,000 per work without you hiring a lawyer. For publishers, studios, agencies and anyone producing catalogued creative output at volume, a standing registration process is the highest-return compliance habit available.</li>
+      </ol>
+
+      <h2>The line to remember</h2>
+      <p>The headline said $1.5 billion for using books. The record says something narrower and more useful: <strong>you may learn from a book you paid for, and you may not keep a copy you stole.</strong> Everything commercially consequential in this case follows from that sentence, and from the awkward fact that paying would have been cheaper by two orders of magnitude.</p>
+
+      <p class="small dim" style="margin-top:34px">Sources: Bartz v. Anthropic (N.D. Cal.), summary judgment order of 23 June 2025 and final approval order of 21 July 2026; Authors Alliance; Authors Guild; Association of American Publishers; Norton Rose Fulbright AI litigation update 2026; 17 U.S.C. &sect;&sect; 412, 504.</p>
+
+      <div class="notice" style="margin-top:44px">
+        <b>This is general commentary,</b> current at its publication date, and not legal advice for any specific matter. Figures described as estimates are our own calculations from public information, with assumptions stated. If any of this touches your position, <a data-book href="#">book a free call</a>.
       </div>
-    </div>
-  </div>
-</section>
-
-<!-- ============================================================== VALUES -->
-<section class="band band--panel2 pad">
-  <div class="wrap">
-    <p class="eyebrow">Our values</p>
-    <h2 style="max-width:24ch;margin-bottom:40px">Five commitments. Hold us to them.</h2>
-    <div class="vows">
-      <div class="vow">
-        <p class="vow__t">Beyond borders, by design</p>
-        <p>Built for global ambition. From formation to expansion, everything we do removes the friction of geography so an idea can scale without hesitation.</p>
-      </div>
-      <div class="vow">
-        <p class="vow__t">Built on local know-how</p>
-        <p>Our StellarPartners make sure every solution is rooted in local practice. Global success still depends on someone knowing how the local registry actually behaves.</p>
-      </div>
-      <div class="vow">
-        <p class="vow__t">Integrity in execution</p>
-        <p>We say what we mean, do what we promised, and deliver on the date agreed. If something slips, you hear it from us first, with options attached.</p>
-      </div>
-      <div class="vow">
-        <p class="vow__t">Future-facing</p>
-        <p>We work at the frontier: AI governance, blockchain, smart contracts and crypto assets, where regulation is still forming and the risk sits in the gap.</p>
-      </div>
-      <div class="vow">
-        <p class="vow__t">Partnerships, not transactions</p>
-        <p>We work alongside clients and adapt as they grow, which is why most of our work comes from people we have already helped.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ============================================================ NUMBERS -->
-<section class="band band--deep pad-sm">
-  <div class="wrap">
-    <p class="eyebrow">By the numbers</p>
-    <h2 style="max-width:30ch">Every number here is a business helped, a process simplified, or a deadline that did not slip.</h2>
-    <div class="stats stats--boxed" style="margin-top:44px">
-      <div class="stats__cell"><div class="stats__n">500+</div><div class="stats__k">Projects delivered end to end</div></div>
-      <div class="stats__cell"><div class="stats__n">24+</div><div class="stats__k">Countries served to date</div></div>
-      <div class="stats__cell"><div class="stats__n">100%</div><div class="stats__k">Job success score on Upwork</div></div>
-      <div class="stats__cell"><div class="stats__n">Top&nbsp;1%</div><div class="stats__k">Top Rated Plus consultants</div></div>
-    </div>
-  </div>
-</section>
-
-<!-- ========================================================= LEADERSHIP -->
-<section class="band band--panel pad" data-reveal-root>
-  <div class="wrap">
-    <div class="split" style="align-items:end;margin-bottom:50px">
-      <div>
-        <p class="eyebrow">Our team</p>
-        <h2>The people who work on your matter.</h2>
-      </div>
-      <p class="body-copy" style="margin:0">Every engagement is assigned to a named person, and you are told who is handling which part before work starts. The figures below come from their Upwork profiles.</p>
-    </div>
-    <div class="crew">
-
-      <article class="crew__p" data-reveal>
-          <!-- swap the span for <img src="team/xxx.jpg" alt="Abhishek Gupta"> when photos are ready -->
-          <div class="crew__dp"><span aria-hidden="true">AG</span></div>
-          <h3 class="crew__name">Abhishek Gupta</h3>
-          <p class="crew__role">Founding Director &middot; IP, GDPR, EU AI Act, FDA, Patent &amp; Trademark Law</p>
-          <p class="crew__where">Poole, United Kingdom</p>
-          <p class="crew__bio">The founding force of StellarStart GLOBAL. Compliance and IP lawyer specialising in GDPR, the EU AI Act, FDA regulation, patents and trademarks, with 193 completed engagements and a 100% job success score.</p>
-          <ul class="crew__subs"><li>Patents</li><li>Trademarks</li><li>GDPR</li><li>EU AI Act</li><li>FDA</li></ul>
-          <div class="crew__stats">
-            <div class="crew__stat"><b>193</b><span>Jobs</span></div>
-            <div class="crew__stat"><b>100%</b><span>Success</span></div>
-            <div class="crew__stat"><b>839h</b><span>Billed</span></div>
-          </div>
-          <a class="txtlink" href="#">View on Upwork &rarr;</a>
-        </article>
-
-      <article class="crew__p" data-reveal>
-          <!-- swap the span for <img src="team/xxx.jpg" alt="Aniket Rastogi"> when photos are ready -->
-          <div class="crew__dp"><span aria-hidden="true">AR</span></div>
-          <h3 class="crew__name">Aniket Rastogi</h3>
-          <p class="crew__role">Director &middot; International Business Law, Tax Attorney &amp; Startup Consultant</p>
-          <p class="crew__where">Ghaziabad, India</p>
-          <p class="crew__bio">Specialist in international business law, cross-border taxation and startup consulting. Advises founders and enterprises on entity structuring, tax treaties and regulatory strategy across 20+ jurisdictions.</p>
-          <ul class="crew__subs"><li>Tax treaties</li><li>Entity structuring</li><li>Regulatory strategy</li><li>Startup advisory</li></ul>
-          <div class="crew__stats">
-            <div class="crew__stat"><b>6</b><span>Jobs</span></div>
-            <div class="crew__stat"><b>100%</b><span>Success</span></div>
-            <div class="crew__stat"><b>5.0&#9733;</b><span>Rating</span></div>
-          </div>
-          <a class="txtlink" href="#">View on Upwork &rarr;</a>
-        </article>
-
-      <article class="crew__p" data-reveal>
-          <!-- swap the span for <img src="team/xxx.jpg" alt="Tanuja S."> when photos are ready -->
-          <div class="crew__dp"><span aria-hidden="true">TS</span></div>
-          <h3 class="crew__name">Tanuja S.</h3>
-          <p class="crew__role">Director &middot; International IP &amp; Contract Law</p>
-          <p class="crew__where">Bournemouth, United Kingdom</p>
-          <p class="crew__bio">Expert in international intellectual property and contract law. Drafts and enforces agreements across jurisdictions, manages copyright frameworks, and advises on content monetisation strategies for creators and enterprises worldwide.</p>
-          <ul class="crew__subs"><li>Contract drafting</li><li>Copyright frameworks</li><li>Content monetisation</li><li>Cross-border enforcement</li></ul>
-          <div class="crew__stats">
-            <div class="crew__stat"><b>16</b><span>Jobs</span></div>
-            <div class="crew__stat"><b>133h</b><span>Billed</span></div>
-            <div class="crew__stat"><b>5.0&#9733;</b><span>Rating</span></div>
-          </div>
-          <a class="txtlink" href="#">View on Upwork &rarr;</a>
-        </article>
-
-      <article class="crew__p" data-reveal>
-          <!-- swap the span for <img src="team/xxx.jpg" alt="Ranz Saw"> when photos are ready -->
-          <div class="crew__dp"><span aria-hidden="true">RS</span></div>
-          <h3 class="crew__name">Ranz Saw</h3>
-          <p class="crew__role">Paralegal Lead &middot; Pro Se Support, Contracts &amp; Immigration Law</p>
-          <p class="crew__where">London, United Kingdom</p>
-          <p class="crew__bio">Paralegal specialist handling pro se legal support, contract assistance and immigration law across Indian, US and UK jurisdictions. Delivers meticulous legal documentation and research with a 100% success rate and a 5.0 client rating.</p>
-          <ul class="crew__subs"><li>Pro se support</li><li>Legal research</li><li>Immigration</li><li>Contract assistance</li><li>Court documentation</li></ul>
-          <div class="crew__stats">
-            <div class="crew__stat"><b>21</b><span>Jobs</span></div>
-            <div class="crew__stat"><b>100%</b><span>Success</span></div>
-            <div class="crew__stat"><b>5.0&#9733;</b><span>Rating</span></div>
-          </div>
-          <a class="txtlink" href="#">View on Upwork &rarr;</a>
-        </article>
-
-      <article class="crew__p" data-reveal>
-          <!-- swap the span for <img src="team/xxx.jpg" alt="Swarina S."> when photos are ready -->
-          <div class="crew__dp"><span aria-hidden="true">SS</span></div>
-          <h3 class="crew__name">Swarina S.</h3>
-          <p class="crew__role">Trademark Lawyer &amp; IP Consultant &middot; USPTO, UKIPO, EUIPO, WIPO, CIPO</p>
-          <p class="crew__where">Manchester, United Kingdom</p>
-          <p class="crew__bio">Trademark and IP consultant with multi-registry expertise across USPTO, UKIPO, EUIPO, WIPO and CIPO. Handles full lifecycle trademark strategy, from clearance searches and filing through to enforcement and portfolio management globally.</p>
-          <ul class="crew__subs"><li>Clearance searches</li><li>Multi-registry filing</li><li>Portfolio management</li><li>Enforcement</li></ul>
-          <div class="crew__stats">
-            <div class="crew__stat"><b>11</b><span>Jobs</span></div>
-            <div class="crew__stat"><b>5.0&#9733;</b><span>Rating</span></div>
-            <div class="crew__stat"><b>5+</b><span>Registries</span></div>
-          </div>
-          <a class="txtlink" href="#">View on Upwork &rarr;</a>
-        </article>
-
-      <article class="crew__p" data-reveal>
-          <!-- swap the span for <img src="team/xxx.jpg" alt="Shatakshi Y."> when photos are ready -->
-          <div class="crew__dp"><span aria-hidden="true">SY</span></div>
-          <h3 class="crew__name">Shatakshi Y.</h3>
-          <p class="crew__role">DMCA &amp; Brand Protection Specialist &middot; 3,500+ Global Takedowns</p>
-          <p class="crew__where">London, United Kingdom</p>
-          <p class="crew__bio">DMCA and brand protection powerhouse with over 3,500 successful global takedowns. Specialises in online infringement removal, brand monitoring and digital IP enforcement across platforms, protecting creators and enterprises worldwide.</p>
-          <ul class="crew__subs"><li>DMCA takedowns</li><li>Brand monitoring</li><li>Platform enforcement</li><li>Infringement removal</li></ul>
-          <div class="crew__stats">
-            <div class="crew__stat"><b>3,500+</b><span>Takedowns</span></div>
-            <div class="crew__stat"><b>6</b><span>Jobs</span></div>
-            <div class="crew__stat"><b>Global</b><span>Reach</span></div>
-          </div>
-          <a class="txtlink" href="#">View on Upwork &rarr;</a>
-        </article>
-    </div>
-  </div>
-</section>
-
-<!-- ============================================================ PARTNERS -->
-<section class="band band--deep pad-sm" data-reveal-root>
-  <div class="wrap split split--wide">
-    <div>
-      <p class="eyebrow">StellarPartners</p>
-      <h2>Local practitioners, one accountable contract.</h2>
-    </div>
-    <div class="grid g2">
-      <div class="card" data-reveal>
-        <h3>How it works</h3>
-        <p>You engage StellarStart Global Limited. Where a matter needs a locally qualified professional (a filing agent, an admitted advocate, a licensed accountant), we instruct and manage them under our scope and our timeline.</p>
-      </div>
-      <div class="card" data-reveal>
-        <h3>What it means for you</h3>
-        <p>One scope document, one fee estimate, one point of escalation. You are told which parts of the work sit with a partner firm and where the professional responsibility for that part rests.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ================================================================= CTA -->
-<section class="cta">
-  <div class="wrap split">
-    <div>
-      <p class="eyebrow">Go Stellar</p>
-      <h2>Start with the question you cannot get a straight answer to.</h2>
-      <p class="lede">Thirty minutes, no charge, and a written follow-up with options and indicative cost.</p>
       <div class="btn-row">
-        <a class="btn btn--solid" data-book href="#">Book a consultation</a>
-        <a class="btn btn--ghost" href="fee.html">See how we charge</a>
+        <a class="btn btn--ghost btn--sm" href="articles.html">&larr; All articles</a>
+        <a class="btn btn--solid btn--sm" data-book href="#">Consult with us</a>
       </div>
     </div>
-    <div>
-      <hr class="rule" style="margin-bottom:26px">
-      <p class="eyebrow eyebrow--muted eyebrow--plain">Newsletter</p>
-      <h3 style="font-size:24px">Cross-border legal briefings, monthly.</h3>
-      <p class="small body-copy" style="margin-top:12px">Deadline changes, new filing rules and regulatory shifts across India, the US, the UK and the EU.</p>
-      <form class="subscribe" onsubmit="event.preventDefault();this.reset();alert('Thanks. Please confirm via the email we just sent.');">
-        <input type="email" required placeholder="you@company.com" aria-label="Email address">
-        <button class="btn btn--solid" type="submit">Subscribe</button>
-      </form>
-    </div>
-  </div>
-</section>
-
-<!-- ========================================================== TRUSTPILOT -->
-<section class="band band--deep pad-sm" data-reveal-root>
-  <div class="wrap">
-    <div class="tp">
-      <div>
-        <div class="tp__mark" style="margin-bottom:10px">
-          <span class="tp__stars">
-            <span class="tp__star">&#9733;</span><span class="tp__star">&#9733;</span>
-            <span class="tp__star">&#9733;</span><span class="tp__star">&#9733;</span>
-            <span class="tp__star tp__star--half">&#9733;</span>
-          </span>
-          <span>Trustpilot</span>
-        </div>
-        <div class="tp__score"><span class="tp__num">4.5</span><span class="tp__of">TrustScore &middot; Excellent</span></div>
-      </div>
-      <p>Reviews are collected and published on Trustpilot, not curated by us. A selection appears below; the full set is on our profile.</p>
-      <a class="btn btn--ghost btn--sm" href="https://www.trustpilot.com/review/stellarstart.global" target="_blank" rel="noopener">See all reviews &rarr;</a>
-    </div>
-
-    <div class="tpgrid">
-      <article class="tprev" data-reveal>
-        <!-- <span class="tprev__stars" aria-label="5 stars">
-          <span class="tp__star">&#9733;</span>
-        </span> -->
-        <p>&ldquo;They flagged a filing deadline we had missed in two jurisdictions and fixed it inside the week. Communication was clear at every step and nothing needed chasing.&rdquo;</p>
-        <b>Verified client</b>
-        <span>Cross-border SaaS &middot; via Trustpilot</span>
-      </article>
-      <article class="tprev" data-reveal>
-        <!-- <span class="tprev__stars" aria-label="5 stars">
-          <span class="tp__star">&#9733;</span>
-        </span> -->
-        <p>&ldquo;Trademark filed across three registries with a renewal calendar we did not have to build ourselves. Fixed fee, agreed up front, no surprises on the invoice.&rdquo;</p>
-        <b>Verified client</b>
-        <span>D2C brand &middot; via Trustpilot</span>
-      </article>
-      <article class="tprev" data-reveal>
-        <!-- <span class="tprev__stars" aria-label="5 stars">
-          <span class="tp__star">&#9733;</span>
-        </span> -->
-        <p>&ldquo;UK entity, VAT registration and banking pack done while we stayed focused on the product. One point of contact throughout, and every date landed when they said it would.&rdquo;</p>
-        <b>Verified client</b>
-        <span>Fintech founder &middot; via Trustpilot</span>
-      </article>
-    </div>
-    <!-- Replace the three quotes above with verbatim reviews from
-         trustpilot.com/review/stellarstart.global before going live, and set
-         the TrustScore to the live figure. -->
   </div>
 </section>
 
