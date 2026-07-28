@@ -256,10 +256,33 @@ p:last-child{ margin-bottom:0; }
 .map__flow--faint{ stroke:rgba(207,200,251,.28); stroke-width:.4; animation-duration:4.6s; }
 
 /* hero with a video plate behind it */
-.hero--video{ position:relative; overflow:hidden; isolation:isolate; }
+.hero--video{
+    position:relative;
+    overflow:hidden;
+    isolation:isolate;
+
+    /* Responsive height */
+    min-height:100svh;     /* Better than 100vh */
+}
+
 .hero__vid{
-  position:absolute; inset:0; width:100%; height:100%;
-  object-fit:cover; z-index:-2; opacity:.42;
+    position:absolute;
+    top:50%;
+    left:50%;
+
+    /* Always larger than container */
+    min-width:100%;
+    min-height:100%;
+
+    width:auto;
+    height:auto;
+
+    transform:translate(-50%,-50%);
+
+    object-fit:cover;
+    object-position:center center;
+
+    z-index:-2;
 }
 .hero__scrim{
   position:absolute; inset:0; z-index:-1;
