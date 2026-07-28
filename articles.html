@@ -318,26 +318,32 @@
       .logo {
         display: flex;
         align-items: center;
-        gap: 11px;
+        gap: 12px;
         font-size: 15.5px;
         letter-spacing: 0.13em;
       }
+
+      .logo img {
+        width: 38px; /* Adjust size if needed */
+        height: 38px;
+        object-fit: contain;
+        flex-shrink: 0;
+      }
+
       .logo b {
         font-weight: 600;
         text-transform: uppercase;
       }
+
       .logo span {
         color: var(--muted);
         text-transform: uppercase;
         font-weight: 400;
       }
+
+      /* Remove the old glowing dot */
       .logo::before {
-        content: "";
-        width: 7px;
-        height: 7px;
-        border-radius: 50%;
-        background: var(--accent);
-        box-shadow: 0 0 12px rgba(207, 200, 251, 0.7);
+        content: none;
       }
       .nav__links {
         display: flex;
@@ -2846,9 +2852,15 @@
   <body>
     <header class="nav">
       <div class="nav__in">
-        <a class="logo" href="index.html"
-          ><b>Stellarstart</b> <span>Global</span></a
-        >
+        <a class="logo" href="index.html">
+          <img
+            src="/logo.png"
+            alt="StellarStart Global Logo"
+            class="logo__img"
+          />
+          <b>Stellarstart</b>
+          <span>Global</span>
+        </a>
         <nav class="nav__links">
           <a href="about.html">About</a>
           <a href="services.html">Services</a>
@@ -3083,7 +3095,13 @@
           </div>
         </article>
 
-        <article class="post" data-reveal data-item data-cats="tax" data-href="article-permanent-establishment-remote-teams">
+        <article
+          class="post"
+          data-reveal
+          data-item
+          data-cats="tax"
+          data-href="article-permanent-establishment-remote-teams"
+        >
           <div class="post__meta">
             <b>Taxation</b>27 June 2026 &middot; 7 min read
           </div>

@@ -156,13 +156,38 @@ p:last-child{ margin-bottom:0; }
   height:76px;
   display:flex; align-items:center; justify-content:space-between;
 }
-.logo{ display:flex; align-items:center; gap:11px; font-size:15.5px; letter-spacing:.13em; }
-.logo b{ font-weight:600; text-transform:uppercase; }
-.logo span{ color:var(--muted); text-transform:uppercase; font-weight:400; }
-.logo::before{
-  content:""; width:7px; height:7px; border-radius:50%;
-  background:var(--accent); box-shadow:0 0 12px rgba(207,200,251,.7);
+.logo{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  font-size:15.5px;
+  letter-spacing:.13em;
 }
+
+.logo img{
+  width:38px;          /* Adjust size if needed */
+  height:38px;
+  object-fit:contain;
+  flex-shrink:0;
+}
+
+.logo b{
+  font-weight:600;
+  text-transform:uppercase;
+}
+
+.logo span{
+  color:var(--muted);
+  text-transform:uppercase;
+  font-weight:400;
+}
+
+/* Remove the old glowing dot */
+.logo::before{
+  content:none;
+}
+
+
 .nav__links{ display:flex; align-items:center; gap:38px; }
 .nav__links a{ font-size:15px; color:#ded9f7; transition:color .18s ease; }
 .nav__links a:hover,.nav__links a[aria-current="page"]{ color:#fff; }
@@ -1145,7 +1170,11 @@ p:last-child{ margin-bottom:0; }
 <!-- ============================================================== NAV -->
 <header class="nav">
   <div class="nav__in">
-    <a class="logo" href="index.html"><b>Stellarstart</b> <span>Global</span></a>
+  <a class="logo" href="index.html">
+  <img src="/logo.png" alt="StellarStart Global Logo" class="logo__img">
+  <b>Stellarstart</b>
+  <span>Global</span>
+  </a>
     <nav class="nav__links">
       <a href="about.html">About</a>
       <a href="services.html">Services</a>
