@@ -3,7 +3,7 @@
   {
    "num": "01",
    "title": "Entity Formation & Structuring",
-   "sub": "Forming entities and designing structures across 38 jurisdictions.",
+   "sub": "Forming entities and designing structures across 24 jurisdictions served.",
    "services": [
     {
      "name": "Jurisdiction selection & structuring advisory",
@@ -34,7 +34,7 @@
      "jur": [
       "United Kingdom",
       "United Arab Emirates",
-      "India",
+      "",
       "Singapore",
       "Hong Kong",
       "Germany",
@@ -54,7 +54,7 @@
      "jur": [
       "Wyoming",
       "United Kingdom",
-      "India",
+      "",
       "Singapore",
       "Ireland",
       "Netherlands",
@@ -75,7 +75,7 @@
      "jur": [
       "United Kingdom",
       "United Arab Emirates",
-      "India",
+      "",
       "Singapore"
      ],
      "ind": [
@@ -91,7 +91,7 @@
      "jur": [
       "Delaware",
       "United Kingdom",
-      "India",
+      "",
       "Singapore",
       "Offshore (BVI, Cayman, Seychelles, Mauritius)"
      ],
@@ -108,7 +108,7 @@
       "Delaware",
       "United Kingdom",
       "United Arab Emirates",
-      "India",
+      "",
       "Singapore",
       "Offshore (BVI, Cayman, Seychelles, Mauritius)"
      ],
@@ -118,13 +118,13 @@
     },
     {
      "name": "Beneficial ownership and transparency compliance",
-     "brief": "Beneficial ownership disclosure is now mandatory across nearly all our jurisdictions: UK PSC register, US Corporate Transparency Act / FinCEN BOI, EU UBO registers, UAE UBO declarations, Indian SBO disclosures. We handle initial filings and ongoing maintenance.",
-     "where": "FinCEN BOI initial filings for US LLCs \u00b7 PSC register setup and maintenance \u00b7 EU member state UBO filings \u00b7 UAE UBO declarations under Cabinet Decision 58",
+     "brief": "Beneficial ownership disclosure is now mandatory across nearly all our jurisdictions: UK PSC register, US Corporate Transparency Act / beneficial-ownership, EU UBO registers, UAE UBO declarations, n SBO disclosures. We handle initial filings and ongoing maintenance.",
+     "where": "PSC register setup and maintenance \u00b7 EU member state UBO filings \u00b7 UAE UBO declarations under Cabinet Decision 58",
      "fee": "Setup bundle",
      "jur": [
       "United Kingdom",
       "United Arab Emirates",
-      "India"
+      ""
      ],
      "ind": [
       "NGO, Charity & Social Enterprise"
@@ -159,7 +159,7 @@
      "jur": [
       "United Kingdom",
       "United Arab Emirates",
-      "India",
+      "",
       "Australia",
       "Canada"
      ],
@@ -169,13 +169,13 @@
     },
     {
      "name": "VAT, GST, and consumption tax compliance",
-     "brief": "Sales tax / VAT / GST is the highest-volume tax compliance work for most growing businesses, because returns are quarterly or monthly and the rules vary dramatically by jurisdiction and product category. We handle registration and ongoing returns across UK VAT, EU VAT (including OSS/IOSS for cross-border B2C), US state sales tax, Canadian GST/HST, Australian GST, UAE VAT, Indian GST, and others.",
-     "where": "UK VAT registration and quarterly returns \u00b7 EU OSS / IOSS for cross-border e- commerce \u00b7 US state sales tax nexus analysis and registrations (Amazon FBA, Shopify D2C) \u00b7 Indian GST monthly returns",
+     "brief": "Sales tax / VAT / GST is the highest-volume tax compliance work for most growing businesses, because returns are quarterly or monthly and the rules vary dramatically by jurisdiction and product category. We handle registration and ongoing returns across UK VAT, EU VAT (including OSS/IOSS for cross-border B2C), US state sales tax, Canadian GST/HST, Australian GST, UAE VAT, n GST, and others.",
+     "where": "UK VAT registration and quarterly returns \u00b7 EU OSS / IOSS for cross-border e- commerce \u00b7 US state sales tax nexus analysis and registrations (Amazon FBA, Shopify D2C) \u00b7 n GST monthly returns",
      "fee": "Fixed fee",
      "jur": [
       "United Kingdom",
       "United Arab Emirates",
-      "India",
+      "",
       "Australia",
       "Canada"
      ],
@@ -192,7 +192,7 @@
      "jur": [
       "United Kingdom",
       "United Arab Emirates",
-      "India",
+      "",
       "Australia"
      ],
      "ind": [
@@ -205,7 +205,7 @@
      "where": "Amazon FBA seller multi-state nexus analysis \u00b7 Shopify D2C economic nexus reviews \u00b7 Sales tax registrations across 15-25 states for high-volume e-commerce \u00b7 Voluntary disclosure agreements for historical non-compliance",
      "fee": "Fixed fee",
      "jur": [
-      "India"
+      ""
      ],
      "ind": [
       "E-commerce & D2C",
@@ -215,7 +215,7 @@
     {
      "name": "Payroll tax and employer registrations",
      "brief": "When you hire your first employee in a new jurisdiction, you trigger a cascade of new tax registrations: PAYE in the UK, EDD in California, GST and PAYG in Australia, equivalent regimes elsewhere. We handle the registrations and set up the ongoing payroll obligations.",
-     "where": "UK PAYE setup for first employee \u00b7 US state payroll registrations (state withholding, state unemployment) \u00b7 Australian PAYG withholding \u00b7 Indian PF, ESI, and TDS for employees",
+     "where": "UK PAYE setup for first employee \u00b7 US state payroll registrations (state withholding, state unemployment) \u00b7 Australian PAYG withholding \u00b7 n PF, ESI, and TDS for employees",
      "fee": "Fixed fee",
      "jur": [
       "Delaware",
@@ -223,7 +223,7 @@
       "California",
       "United Kingdom",
       "United Arab Emirates",
-      "India",
+      "",
       "Australia"
      ],
      "ind": [
@@ -244,7 +244,7 @@
       "New York",
       "United Kingdom",
       "United Arab Emirates",
-      "India",
+      "",
       "Australia"
      ],
      "ind": [
@@ -259,7 +259,7 @@
      "where": "Permanent establishment risk reviews \u00b7 Withholding tax analysis on cross-border royalty and service payments \u00b7 Tax residence advisory for founders and employees \u00b7 Transfer pricing documentation for intra-group services and licensing",
      "fee": "Fixed fee",
      "jur": [
-      "India"
+      ""
      ],
      "ind": [
       "Gaming, Esports & Interactive Entertainment",
@@ -302,7 +302,7 @@
       "Texas",
       "Florida",
       "California",
-      "India"
+      ""
      ],
      "ind": [
       "SaaS & Cloud Software",
@@ -318,7 +318,7 @@
      "fee": "Annual subscription",
      "jur": [
       "United Kingdom",
-      "India"
+      ""
      ],
      "ind": [
       "SaaS & Cloud Software"
@@ -348,7 +348,7 @@
      "fee": "Annual subscription",
      "jur": [
       "United Kingdom",
-      "India"
+      ""
      ],
      "ind": [
       "SaaS & Cloud Software",
@@ -359,13 +359,13 @@
     },
     {
      "name": "Annual filings and confirmation statements",
-     "brief": "The recurring filing work that keeps your company in good standing: UK confirmation statements, US state annual reports, Canadian annual returns, Australian ASIC annual reviews, UAE license renewals, India ROC filings, plus equivalent regimes in each of our jurisdictions.",
-     "where": "UK confirmation statement (CS01) \u00b7 US state annual reports (50 states) \u00b7 India MGT-7, AOC-4 \u00b7 Singapore annual return",
+     "brief": "The recurring filing work that keeps your company in good standing: UK confirmation statements, US state annual reports, Canadian annual returns, Australian ASIC annual reviews, UAE license renewals,  ROC filings, plus equivalent regimes in each of our jurisdictions.",
+     "where": "UK confirmation statement (CS01) \u00b7 US state annual reports (50 states) \u00b7  MGT-7, AOC-4 \u00b7 Singapore annual return",
      "fee": "Annual subscription",
      "jur": [
       "United Kingdom",
       "United Arab Emirates",
-      "India",
+      "",
       "Singapore",
       "Australia",
       "Canada"
@@ -378,13 +378,13 @@
     },
     {
      "name": "Annual filings and confirmation statements",
-     "brief": "The recurring filing work that keeps your company in good standing: UK confirmation statements, US state annual reports, Canadian annual returns, Australian ASIC annual reviews, UAE license renewals, India ROC filings, plus equivalent regimes in each of our jurisdictions. Typical work: UK confirmation statement (CS01); US state annual reports (50 states); India MGT-7, AOC-4; Singapore annual...",
+     "brief": "The recurring filing work that keeps your company in good standing: UK confirmation statements, US state annual reports, Canadian annual returns, Australian ASIC annual reviews, UAE license renewals,  ROC filings, plus equivalent regimes in each of our jurisdictions. Typical work: UK confirmation statement (CS01); US state annual reports (50 states);  MGT-7, AOC-4; Singapore annual...",
      "where": "Director appointment and resignation resolutions \u00b7 Dividend declarations \u00b7 Banking authorisation resolutions \u00b7 Share issuance and allotment resolutions",
      "fee": "Annual subscription",
      "jur": [
       "United Kingdom",
       "United Arab Emirates",
-      "India",
+      "",
       "Singapore",
       "Australia",
       "Canada"
@@ -398,11 +398,11 @@
     {
      "name": "Director and officer changes",
      "brief": "Filing director, secretary, and officer changes across all our jurisdictions: appointments, resignations, address changes, name changes. This includes the underlying documentation (consent letters, resolutions, written notices) and the public-record filings (Companies House, state secretaries of state, equivalents).",
-     "where": "UK director appointment filings (AP01) \u00b7 US state officer change filings \u00b7 India DIR-12 director appointment / cessation \u00b7 Director nominee changes for nominee structures",
+     "where": "UK director appointment filings (AP01) \u00b7 US state officer change filings \u00b7  DIR-12 director appointment / cessation \u00b7 Director nominee changes for nominee structures",
      "fee": "Annual subscription",
      "jur": [
       "United Kingdom",
-      "India"
+      ""
      ],
      "ind": [
       "Real Estate & Property Investment"
@@ -416,7 +416,7 @@
      "jur": [
       "United Kingdom",
       "United Arab Emirates",
-      "India",
+      "",
       "Singapore"
      ],
      "ind": [
@@ -436,7 +436,7 @@
      "where": "Home occupation permits \u00b7 City retail and seller\u2019s permits \u00b7 State professional licensing coordination \u00b7 Multi-state license tracking for businesses operating across states",
      "fee": "Capped fee",
      "jur": [
-      "India"
+      ""
      ],
      "ind": [
       "E-commerce & D2C",
@@ -451,7 +451,7 @@
      "fee": "Capped fee",
      "jur": [
       "United Arab Emirates",
-      "India"
+      ""
      ],
      "ind": [
       "Gaming, Esports & Interactive Entertainment",
@@ -466,7 +466,7 @@
      "fee": "Capped fee",
      "jur": [
       "United Kingdom",
-      "India",
+      "",
       "Singapore"
      ],
      "ind": [
@@ -486,7 +486,7 @@
      "where": "US FDA MoCRA cosmetic registrations \u00b7 MHRA medical device classification \u00b7 Class I self-declarations \u00b7 Health Canada Cosmetic Notification Forms",
      "fee": "Capped fee",
      "jur": [
-      "India",
+      "",
       "Canada"
      ],
      "ind": [
@@ -503,7 +503,7 @@
      "fee": "Capped fee",
      "jur": [
       "United Kingdom",
-      "India",
+      "",
       "Canada"
      ],
      "ind": [
@@ -524,7 +524,7 @@
      "fee": "Capped fee",
      "jur": [
       "United Kingdom",
-      "India",
+      "",
       "Canada"
      ],
      "ind": [
@@ -545,7 +545,7 @@
      "fee": "Capped fee",
      "jur": [
       "New York",
-      "India"
+      ""
      ],
      "ind": [
       "SaaS & Cloud Software",
@@ -585,7 +585,7 @@
      "where": "Source-of-funds documentation for high-bar banks \u00b7 Structure charts and beneficial- ownership disclosure \u00b7 Business activity descriptions tailored to the bank\u2019s onboarding system \u00b7 KYC document collation and certification",
      "fee": "Fixed fee",
      "jur": [
-      "India"
+      ""
      ],
      "ind": [
       "Real Estate & Property Investment",
@@ -600,7 +600,7 @@
      "fee": "Fixed fee",
      "jur": [
       "United Kingdom",
-      "India"
+      ""
      ],
      "ind": [
       "Financial Services & FinTech"
@@ -614,7 +614,7 @@
      "jur": [
       "Wyoming",
       "Delaware",
-      "India"
+      ""
      ],
      "ind": [
       "Financial Services & FinTech"
@@ -626,7 +626,7 @@
      "where": "Ireland banking for IE-incorporated tech companies \u00b7 Netherlands banking for BV holding companies \u00b7 Estonian e-Residency banking (via Wise, Payoneer, partner banks) \u00b7 Multi-EU- currency accounts for cross-border traders",
      "fee": "Fixed fee",
      "jur": [
-      "India",
+      "",
       "Ireland",
       "Netherlands",
       "Germany",
@@ -647,7 +647,7 @@
      "fee": "Fixed fee",
      "jur": [
       "United Arab Emirates",
-      "India"
+      ""
      ],
      "ind": [
       "Financial Services & FinTech",
@@ -660,7 +660,7 @@
      "where": "Singapore Pte Ltd banking with DBS or OCBC \u00b7 Hong Kong limited company banking \u00b7 Asian digital banking alternatives (Aspire, Statrys, Currenxie) \u00b7 Cross-border treasury setup for APAC operating companies",
      "fee": "Fixed fee",
      "jur": [
-      "India",
+      "",
       "Singapore",
       "Hong Kong"
      ],
@@ -675,7 +675,7 @@
      "fee": "Fixed fee",
      "jur": [
       "United Kingdom",
-      "India"
+      ""
      ],
      "ind": [
       "Web3, Crypto & Digital Assets",
@@ -689,7 +689,7 @@
      "where": "Xero / QuickBooks / Zoho Books setup \u00b7 Multi-currency accounting configuration \u00b7 Bookkeeping handover packs \u00b7 Introductions to fractional CFOs and accounting partners. What You Receive",
      "fee": "Fixed fee",
      "jur": [
-      "India"
+      ""
      ],
      "ind": [
       "Fashion & Apparel",
@@ -711,7 +711,7 @@
      "fee": "Fixed fee",
      "jur": [
       "United Kingdom",
-      "India"
+      ""
      ],
      "ind": [
       "Fashion & Apparel"
@@ -724,7 +724,7 @@
      "fee": "Fixed fee",
      "jur": [
       "United Kingdom",
-      "India",
+      "",
       "Australia"
      ],
      "ind": [
@@ -733,12 +733,12 @@
     },
     {
      "name": "Copyright registration and enforcement",
-     "brief": "US Copyright Office and Indian Copyright Office registrations (the UK does not have a registration system), copyright recordation at US Customs, and copyright enforcement through DMCA takedowns, cease-and-desist programmes, and litigation paralegal support.",
-     "where": "US Copyright Office registrations for software, music, written works \u00b7 Indian Copyright Office filings \u00b7 DMCA \u00a7512(c) takedowns across hosting providers and platforms \u00b7 Copyright dispute negotiations and settlements",
+     "brief": "US Copyright Office and n Copyright Office registrations (the UK does not have a registration system), copyright recordation at US Customs, and copyright enforcement through DMCA takedowns, cease-and-desist programmes, and litigation paralegal support.",
+     "where": "US Copyright Office registrations for software, music, written works \u00b7 n Copyright Office filings \u00b7 DMCA \u00a7512(c) takedowns across hosting providers and platforms \u00b7 Copyright dispute negotiations and settlements",
      "fee": "Fixed fee",
      "jur": [
       "United Kingdom",
-      "India"
+      ""
      ],
      "ind": [
       "SaaS & Cloud Software",
@@ -769,7 +769,7 @@
      "fee": "Fixed fee",
      "jur": [
       "United Kingdom",
-      "India"
+      ""
      ],
      "ind": [
       "E-commerce & D2C",
@@ -786,7 +786,7 @@
      "fee": "Fixed fee",
      "jur": [
       "United Kingdom",
-      "India"
+      ""
      ],
      "ind": [
       "E-commerce & D2C",
@@ -803,7 +803,7 @@
      "fee": "Fixed fee",
      "jur": [
       "United Kingdom",
-      "India",
+      "",
       "Singapore",
       "Ireland"
      ],
@@ -823,7 +823,7 @@
      "fee": "Fixed fee",
      "jur": [
       "United Kingdom",
-      "India"
+      ""
      ],
      "ind": [
       "Fashion & Apparel",
@@ -844,7 +844,7 @@
      "fee": "Fixed fee",
      "jur": [
       "United Kingdom",
-      "India"
+      ""
      ],
      "ind": [
       "SaaS & Cloud Software",
@@ -871,7 +871,7 @@
      "where": "Standard mutual NDAs \u00b7 One-way NDAs for evaluation processes \u00b7 Multi-party NDAs for diligence rooms \u00b7 Confidentiality clauses in employment and contractor agreements",
      "fee": "Fixed fee",
      "jur": [
-      "India"
+      ""
      ],
      "ind": [
       "SaaS & Cloud Software",
@@ -888,7 +888,7 @@
      "jur": [
       "United Kingdom",
       "United Arab Emirates",
-      "India",
+      "",
       "Singapore"
      ],
      "ind": [
@@ -935,7 +935,7 @@
      "jur": [
       "United Kingdom",
       "United Arab Emirates",
-      "India",
+      "",
       "Singapore"
      ],
      "ind": [
@@ -955,7 +955,7 @@
      "where": "Pre-action protocol correspondence \u00b7 Cease and desist letters and follow-up programmes \u00b7 Settlement deed drafting \u00b7 Mediation preparation and coordination. What You Receive",
      "fee": "Fixed fee",
      "jur": [
-      "India"
+      ""
      ],
      "ind": [
       "SaaS & Cloud Software",
@@ -978,7 +978,7 @@
      "fee": "Annual subscription",
      "jur": [
       "United Kingdom",
-      "India"
+      ""
      ],
      "ind": [
       "NGO, Charity & Social Enterprise"
@@ -1001,14 +1001,14 @@
      ]
     },
     {
-     "name": "FinCEN BOI and beneficial-ownership compliance",
-     "brief": "US FinCEN Beneficial Ownership Information reporting under the Corporate Transparency Act \u2014 initial reports plus updates within 30 days of beneficial-ownership changes. Equivalent regimes across UK PSC, EU UBO, UAE UBO, and Indian SBO.",
-     "where": "FinCEN BOI initial reports \u00b7 BOI updates following ownership changes \u00b7 PSC register reconciliation and Companies House confirmation \u00b7 EU member state UBO filings",
+     "name": "Beneficial-ownership compliance",
+     "brief": "US FinCEN Beneficial Ownership Information reporting under the Corporate Transparency Act \u2014 initial reports plus updates within 30 days of beneficial-ownership changes. Equivalent regimes across UK PSC, EU UBO, UAE UBO, and n SBO.",
+     "where": "PSC register reconciliation and Companies House confirmation \u00b7 EU member state UBO filings",
      "fee": "Annual subscription",
      "jur": [
       "United Kingdom",
       "United Arab Emirates",
-      "India"
+      ""
      ],
      "ind": [
       "NGO, Charity & Social Enterprise"
@@ -1020,7 +1020,7 @@
      "where": "Canadian federal annual return \u00b7 provincial annual returns \u00b7 Australian ASIC annual review \u00b7 Director ID compliance",
      "fee": "Annual subscription",
      "jur": [
-      "India",
+      "",
       "Australia",
       "Canada"
      ],
@@ -1030,7 +1030,7 @@
     },
     {
      "name": "UAE compliance: license renewals and substance",
-     "brief": "UAE mainland and free-zone license renewals, immigration card and visa renewals, ESR notifications, UBO declarations, and ongoing AML compliance for regulated activities.",
+     "brief": "UAE mainland and free-zone license renewals, ESR notifications, UBO declarations, and ongoing AML compliance for regulated activities.",
      "where": "Annual trade license renewals (mainland and free zones) \u00b7 ESR notifications and reports \u00b7 UBO declarations under Cabinet Decision 58 \u00b7 AML compliance for DNFBPs and regulated activities",
      "fee": "Annual subscription",
      "jur": [
@@ -1044,12 +1044,12 @@
      ]
     },
     {
-     "name": "India ROC and statutory compliance",
-     "brief": "Indian Pvt Ltd, LLP, and Section 8 Company ROC filings, DIR-3 KYC for directors, statutory audit coordination, FEMA / RBI compliance for foreign-owned entities, and annual FLA returns.",
+     "name": " ROC and statutory compliance",
+     "brief": "n Pvt Ltd, LLP, and Section 8 Company ROC filings, DIR-3 KYC for directors, statutory audit coordination, FEMA / RBI compliance for foreign-owned entities, and annual FLA returns.",
      "where": "MGT-7 annual return \u00b7 AOC-4 financial statements \u00b7 DIR-3 KYC for directors (annual) \u00b7 Foreign Liabilities and Assets (FLA) annual return for foreign-owned entities",
      "fee": "Annual subscription",
      "jur": [
-      "India"
+      ""
      ],
      "ind": [
       "Real Estate & Property Investment",
@@ -1075,7 +1075,7 @@
     {
      "name": "Remedial work and reinstatement",
      "brief": "Where compliance has lapsed \u2014 missed filings, struck-off companies, late beneficial-ownership reports \u2014 we handle the remedial work. This is more expensive than ongoing compliance but often less expensive than the alternatives (losing banking relationships, M&A disruption, regulatory enforcement).",
-     "where": "Reinstatement of UK companies struck off Companies House register \u00b7 Late confirmation statement filings with penalty mitigation \u00b7 Catch-up FinCEN BOI reporting \u00b7 Backdated PSC register reconciliation. What You Receive",
+     "where": "Reinstatement of UK companies struck off Companies House register \u00b7 Late confirmation statement filings with penalty mitigation \u00b7 Backdated PSC register reconciliation. What You Receive",
      "fee": "Annual subscription",
      "jur": [
       "United Kingdom"
@@ -1306,7 +1306,7 @@
    "name": "Asia-Pacific 10 jurisdictions",
    "items": [
     {
-     "name": "India",
+     "name": "",
      "desc": "A market of 1.4 billion. Our other home base."
     },
     {
