@@ -12,6 +12,20 @@ document.addEventListener('click', function (e) {
   var links = document.querySelector('.nav__links');
   if (links) links.classList.toggle('open');
 });
+/* ------------------------------------------------------------- Dynamic date update --- */
+document.addEventListener("DOMContentLoaded", function () {
+  const dateElement = document.getElementById("checked-date");
+
+  if (!dateElement) return;
+
+  const today = new Date();
+
+  dateElement.textContent = today.toLocaleDateString("en-GB", {
+    day: "numeric",
+    month: "long",
+    year: "numeric"
+  });
+});
 
 /* -------------------------------------------------------- 2. world map --- */
 (function () {
@@ -75,7 +89,7 @@ document.addEventListener('click', function (e) {
   var CITY = [
     { n:'New York',     lon:-74.0,  lat:40.7,  s:'US matters and filings',        hub:1 },
     { n:'London',       lon:-0.13,  lat:51.5,  s:'UK HQ, StellarStart Global Ltd', hub:1 },
-    { n:'New Delhi',    lon:77.2,   lat:28.6,  s:'South Asia desk',               hub:1 },
+    // { n:'New Delhi',    lon:77.2,   lat:28.6,  s:'South Asia desk',               hub:1 },
     { n:'Dubai',        lon:55.3,   lat:25.2,  s:'GCC entity and tax structuring', hub:1 },
     { n:'Nairobi',      lon:36.8,   lat:-1.29, s:'East Africa desk',              hub:1 },
     { n:'Singapore',    lon:103.8,  lat:1.35,  s:'APAC and Web3 regulatory',      hub:1 },
@@ -99,10 +113,10 @@ document.addEventListener('click', function (e) {
   ];
 
   // corridors that carry a pulse
-  var TRUNK = [[1,0],[1,2],[1,3],[1,4],[0,5],[3,4],[2,5],[5,21]];
+  var TRUNK = [[1,0],[1,2],[1,3],[1,4],[0,5],[3,4],[2,5],[5,20]];
   // quiet regional spokes
-  var SPOKE = [[1,10],[1,11],[1,12],[1,13],[1,14],[1,15],[0,6],[0,7],[0,8],[0,9],
-               [4,16],[4,17],[3,18],[5,19],[5,20],[2,3],[12,13],[11,12]];
+  var SPOKE = [[1,9],[1,10],[1,11],[1,12],[1,13],[1,14],[0,5],[0,6],[0,7],[0,8],
+               [3,15],[3,16],[2,17],[4,18],[4,19],[1,2],[11,12],[10,11]];
 
   function arc(i, j, bow) {
     var x1 = x(CITY[i].lon), y1 = y(CITY[i].lat), x2 = x(CITY[j].lon), y2 = y(CITY[j].lat);
@@ -142,19 +156,20 @@ document.addEventListener('click', function (e) {
     svg.push('<path id="ssRoute' + i + '" class="map__arc" d="' + arc(r[0], r[1], 0.19) + '"/>');
   });
 
-  // Comets are drawn once here and positioned every frame below.
-  var TAIL = 4;
+  // Flow lines: a dashed stroke laid over each corridor whose dash offset
+  // animates continuously, so traffic reads as an unbroken stream rather
+  // than a single travelling dot.
+  // Directions vary line to line so the network reads as ambient traffic,
+  // not a conveyor belt. Deterministic, so it looks the same on every load.
   TRUNK.forEach(function (r, i) {
-    [0, 1].forEach(function (dir) {
-      var g = ['<g class="map__comet" data-route="' + i + '" data-dir="' + dir + '" opacity="0">'];
-      for (var t = TAIL; t >= 1; t--) {
-        g.push('<circle class="map__tail" r="' + (0.5 + t * 0.17).toFixed(2) + '" opacity="' + (0.07 * (TAIL - t + 1)).toFixed(2) + '"/>');
-      }
-      g.push('<circle class="map__halo" r="4.6"/>');
-      g.push('<circle class="map__core" r="1.6"/>');
-      g.push('</g>');
-      svg.push(g.join(''));
-    });
+    var dir = (i % 3 === 1) ? 'animation-direction:reverse;' : '';
+    var dur = (2.8 + (i % 4) * 0.5).toFixed(1);
+    svg.push('<path class="map__flow" pathLength="100" d="' + arc(r[0], r[1], 0.19) + '" style="' + dir + 'animation-duration:' + dur + 's;animation-delay:-' + (i * 0.6).toFixed(2) + 's"/>');
+  });
+  SPOKE.forEach(function (r, i) {
+    var dir = (i % 2) ? 'animation-direction:reverse;' : '';
+    var dur = (3.8 + (i % 5) * 0.5).toFixed(1);
+    svg.push('<path class="map__flow map__flow--faint" pathLength="100" d="' + arc(r[0], r[1], 0.22) + '" style="' + dir + 'animation-duration:' + dur + 's;animation-delay:-' + (i * 0.45).toFixed(2) + 's"/>');
   });
 
   CITY.forEach(function (c, i) {
@@ -172,87 +187,6 @@ document.addEventListener('click', function (e) {
 
   svg.push('</svg>');
   host.innerHTML = svg.join('');
-
-  /* ---- comet driver -------------------------------------------------------
-     Hand-driven rather than SMIL so the pulse can ease out of one city, hold,
-     and fade into the next, instead of sliding at a constant rate forever. */
-  (function () {
-    var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    var svgEl = host.querySelector('svg');
-    var comets = [].slice.call(host.querySelectorAll('.map__comet'));
-    if (reduce || !comets.length) return;
-
-    var runs = [];
-    comets.forEach(function (g, i) {
-      var path = svgEl.querySelector('#ssRoute' + g.getAttribute('data-route'));
-      if (!path || !path.getPointAtLength) return;
-      var len = 0;
-      try { len = path.getTotalLength(); } catch (e) { return; }
-      if (!len) return;
-      runs.push({
-        g: g,
-        path: path,
-        len: len,
-        back: g.getAttribute('data-dir') === '1',
-        tail: [].slice.call(g.querySelectorAll('.map__tail')),
-        travel: len / 66,                       // ~66 map units per second
-        rest: 1.1 + (i % 3) * 0.4,              // pause at the far end
-        t: -(i * 1.15) % 7                      // stagger the launches
-      });
-    });
-    if (!runs.length) return;
-
-    // eased 0..1, so the pulse leaves and arrives softly
-    function ease(p) { return p < 0.5 ? 2 * p * p : 1 - Math.pow(-2 * p + 2, 2) / 2; }
-    function fade(p) { return Math.min(1, Math.min(p, 1 - p) / 0.12); }
-
-    var last = 0, running = true;
-    function frame(now) {
-      if (!running) return;
-      var dt = last ? Math.min((now - last) / 1000, 0.05) : 0;
-      last = now;
-
-      runs.forEach(function (r) {
-        r.t += dt;
-        var cycle = r.travel + r.rest;
-        var p = r.t / r.travel;
-        if (r.t < 0) { r.g.setAttribute('opacity', '0'); return; }
-        if (r.t > cycle) { r.t -= cycle; p = 0; }
-        if (p > 1) { r.g.setAttribute('opacity', '0'); return; }
-
-        r.g.setAttribute('opacity', fade(p).toFixed(3));
-        var e = ease(p);
-        var at = function (k) {
-          var d = Math.max(0, Math.min(1, k));
-          return r.path.getPointAtLength((r.back ? 1 - d : d) * r.len);
-        };
-        var head = at(e);
-        r.g.querySelector('.map__halo').setAttribute('cx', head.x);
-        r.g.querySelector('.map__halo').setAttribute('cy', head.y);
-        r.g.querySelector('.map__core').setAttribute('cx', head.x);
-        r.g.querySelector('.map__core').setAttribute('cy', head.y);
-        r.tail.forEach(function (c, k) {
-          var q = at(e - (k + 1) * 0.022);
-          c.setAttribute('cx', q.x);
-          c.setAttribute('cy', q.y);
-        });
-      });
-      requestAnimationFrame(frame);
-    }
-    requestAnimationFrame(frame);
-
-    // stop when off screen or in a background tab
-    function setRunning(on) {
-      if (on === running) return;
-      running = on; last = 0;
-      if (on) requestAnimationFrame(frame);
-    }
-    document.addEventListener('visibilitychange', function () { setRunning(!document.hidden); });
-    if (window.IntersectionObserver) {
-      new IntersectionObserver(function (es) { setRunning(es[0].isIntersecting && !document.hidden); },
-        { threshold: 0 }).observe(host);
-    }
-  })();
 
   // hover tooltip
   var tip = document.createElement('div');
@@ -336,9 +270,7 @@ document.addEventListener('click', function (e) {
 
 /* ------------------------------------------------ 4. reveal + counters --- */
 (function () {
-  var root = document.querySelector('[data-reveal-root]');
-  if (!root) return;
-  var items = [].slice.call(root.querySelectorAll('[data-reveal]'));
+  var items = [].slice.call(document.querySelectorAll('[data-reveal-root] [data-reveal]'));
   if (!items.length) return;
 
   var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -418,8 +350,9 @@ document.addEventListener('click', function (e) {
       // while filtering, open every area that still has results
       if (filtering) open(area, n > 0);
     });
-
-    total.textContent = shown;
+    if (total){
+      total.textContent = shown;
+    }    
     empty.style.display = shown ? 'none' : '';
   }
 
@@ -446,14 +379,6 @@ document.addEventListener('click', function (e) {
     areas.forEach(function (a, i) { open(a, i === 0); });
   });
 
-  document.querySelectorAll('[data-sector]').forEach(function (b) {
-    b.addEventListener('click', function () {
-      fInd.value = b.getAttribute('data-sector');
-      apply();
-      if (root.scrollIntoView) root.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    });
-  });
-
   apply();
 })();
 
@@ -476,8 +401,228 @@ document.addEventListener('click', function (e) {
     t.addEventListener('click', function () { show(t.getAttribute('data-view')); });
   });
 
-  // choosing a sector jumps back to the service list with that filter applied
-  root.querySelectorAll('[data-sector]').forEach(function (b) {
-    b.addEventListener('click', function () { show('all'); });
+})();
+
+/* ==========================================================================
+   V3 modules
+   ========================================================================== */
+
+/* Booking link used by the floating button and every "Book a call" CTA.
+   Replace this single value with your live Calendly event URL. */
+var SS_BOOKING = 'https://calendly.com/tanuja-stellarstart/30min';
+
+/* ------------------------------------------------- 7. floating booking --- */
+(function () {
+  if (document.querySelector('.book')) return;
+  var a = document.createElement('a');
+  a.className = 'book';
+  a.href = SS_BOOKING;
+  a.target = '_blank';
+  a.rel = 'noopener';
+  a.innerHTML = '<span>Request a project-scoping call</span>';
+  a.setAttribute('aria-label', 'Book a free consultation call');
+  document.body.appendChild(a);
+  document.querySelectorAll('[data-book]').forEach(function (el) {
+    el.setAttribute('href', SS_BOOKING);
+    el.setAttribute('target', '_blank');
+    el.setAttribute('rel', 'noopener');
   });
+})();
+
+/* ----------------------------------------------------- 8. site search --- */
+(function () {
+  var box = document.querySelector('[data-sitesearch]');
+  if (!box) return;
+  var input = box.querySelector('input');
+  var out = box.querySelector('[data-ss-out]');
+  var go = box.querySelector('button');
+
+  // Everything on the site that is worth landing on, with the words people
+  // actually type. Services resolve to the services page with a live filter.
+  var INDEX = [
+    ['paralegal support, pro se, litigation support, subpoena, bundles, pleadings', 'Paralegal &amp; litigation support', 'Services, dispute support', 'services.html?q=paralegal'],
+    ['subpoena, third party subpoena, records request', 'Subpoena services', 'Services, dispute support', 'services.html?q=subpoena'],
+    ['udrp, domain dispute, cybersquatting, domain name', 'UDRP domain disputes', 'Services, intellectual property', 'services.html?q=udrp'],
+    ['orm, online reputation, defamation, content removal, takedown', 'Online reputation management', 'Services, brand protection', 'services.html?q=reputation'],
+    ['trademark, tm, brand, clearance, opposition, madrid', 'Trademark clearance and prosecution', 'Services, intellectual property', 'services.html?q=trademark'],
+    ['copyright, dmca, infringement', 'Copyright registration and enforcement', 'Services, intellectual property', 'services.html?q=copyright'],
+    ['patent, design, pct', 'Patent and design support', 'Services, intellectual property', 'services.html?q=patent'],
+    ['company formation, incorporation, llc, c-corp, ltd, entity', 'Entity formation and structuring', 'Services, corporate', 'services.html?q=formation'],
+    ['vat, gst, sales tax, ein, utr, tax registration', 'Tax registration and compliance', 'Services, taxation', 'services.html?q=tax'],
+    ['registered agent, registered office, company secretary', 'Registered agent and corporate secretarial', 'Services, corporate', 'services.html?q=registered'],
+    ['licence, license, permit, regulatory, fca, food', 'Licensing and regulatory obligations', 'Services, regulatory', 'services.html?q=licens'],
+    ['bank account, banking, mercury, payments, merchant', 'Banking and financial setup', 'Services, banking', 'services.html?q=bank'],
+    ['contract, saas, nda, agreement, terms', 'Contracts and documentation', 'Services, commercial', 'services.html?q=contract'],
+    ['gdpr, privacy, data protection, dpdp, ccpa', 'Data protection and privacy', 'Services, compliance', 'services.html?q=privacy'],
+    ['annual return, confirmation statement, boi, compliance calendar', 'Ongoing compliance and annual reporting', 'Services, compliance', 'services.html?q=compliance'],
+    ['fees, pricing, cost, how much, madrid calculator', 'Fees and engagement models', 'Fees page', 'fee.html'],
+    ['madrid calculator, international trademark cost', 'Madrid System fee calculator', 'Fees page', 'fee.html#madrid'],
+    ['team, people, who, directors, abhishek, aniket, tanuja, ranz, swarina, shatakshi', 'The people who work on your matter', 'Homepage, team', 'index.html#team'],
+    ['about, story, values, commitments, stellarpartners', 'About StellarStart Global', 'About page', 'about.html'],
+    ['articles, blog, insights, dpdp, anthropic', 'Articles and blogs', 'Articles page', 'articles.html'],
+    ['contact, call, book, consultation, enquiry', 'Book a consultation', 'Contact page', 'contact.html'],
+    ['jurisdiction, country, wyoming, delaware, uae, singapore', 'Thirty-eight jurisdictions', 'Services, by jurisdiction', 'services.html#all'],
+    ['sector, industry, saas, ecommerce, web3, gaming, fashion', 'Fifteen sectors we work in', 'Services, by sector', 'services.html#all']
+  ];
+
+  function render(term) {
+    var t = term.trim().toLowerCase();
+    if (!t) { out.classList.remove('on'); out.innerHTML = ''; return; }
+    var hits = INDEX.filter(function (r) {
+      return r[0].indexOf(t) > -1 || r[1].toLowerCase().indexOf(t) > -1;
+    }).slice(0, 6);
+    out.innerHTML = hits.length
+      ? hits.map(function (r) { return '<a href="' + r[3] + '"><b>' + r[1] + '</b><span>' + r[2] + '</span></a>'; }).join('')
+      : '<p class="sitesearch__none">Nothing matched. Try trademark, VAT, paralegal, banking or a country name.</p>';
+    out.classList.add('on');
+  }
+
+  function submit() {
+    var t = input.value.trim();
+    if (!t) return;
+    var first = out.querySelector('a');
+    window.location.href = first ? first.getAttribute('href') : 'services.html?q=' + encodeURIComponent(t);
+  }
+
+  input.addEventListener('input', function () { render(input.value); });
+  input.addEventListener('keydown', function (e) { if (e.key === 'Enter') { e.preventDefault(); submit(); } });
+  go.addEventListener('click', submit);
+  document.addEventListener('click', function (e) { if (!box.contains(e.target)) out.classList.remove('on'); });
+})();
+
+/* -------------------------------------- 9. services: modal + deep links --- */
+(function () {
+  var root = document.querySelector('[data-svc-root]');
+  if (!root) return;
+
+  var modal = document.createElement('div');
+  modal.className = 'modal';
+  modal.innerHTML =
+    '<div class="modal__box" role="dialog" aria-modal="true">' +
+      '<div class="modal__hd"><div><h3 data-m-title></h3><p data-m-sub></p></div>' +
+      '<button class="modal__x" aria-label="Close">&times;</button></div>' +
+      '<div class="modal__bd" data-m-body></div>' +
+      '<div class="modal__ft"><a class="btn btn--solid btn--sm" data-book href="#">Request a project-scoping call →</a></div>' +
+    '</div>';
+  document.body.appendChild(modal);
+  var mTitle = modal.querySelector('[data-m-title]');
+  var mSub = modal.querySelector('[data-m-sub]');
+  var mBody = modal.querySelector('[data-m-body]');
+
+  function close() { modal.classList.remove('on'); document.body.style.overflow = ''; }
+  modal.querySelector('.modal__x').addEventListener('click', close);
+  modal.addEventListener('click', function (e) { if (e.target === modal) close(); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
+
+  var svcs = [].slice.call(root.querySelectorAll('[data-svc]'));
+
+  function open(kind, value) {
+    var attr = kind === 'sector' ? 'data-ind' : 'data-jur';
+    var list = svcs.filter(function (el) {
+      return (el.getAttribute(attr) || '').split('|').indexOf(value) > -1;
+    });
+    mTitle.textContent = value;
+    mSub.textContent = list.length + (list.length === 1 ? ' service' : ' services') +
+      (kind === 'sector' ? ' for this sector' : ' available in this jurisdiction');
+    mBody.innerHTML = list.length
+      ? list.map(function (el) {
+          var area = el.closest('.area').querySelector('.area__t').textContent;
+          return '<div class="mrow"><div><b>' + el.querySelector('h4').textContent + '</b>' +
+                 '<span>' + area + '</span></div>' +
+                 '<em>' + (el.getAttribute('data-fee') || '') + '</em></div>';
+        }).join('')
+      : '<p class="dim small">Nothing listed yet. Ask us and we will confirm whether we cover it.</p>';
+    modal.classList.add('on');
+    document.body.style.overflow = 'hidden';
+    if (window.SS_BOOKING) modal.querySelector('[data-book]').href = window.SS_BOOKING;
+  }
+
+  root.querySelectorAll('[data-sector]').forEach(function (b) {
+    b.addEventListener('click', function () { open('sector', b.getAttribute('data-sector')); });
+  });
+  root.querySelectorAll('[data-jurisdiction]').forEach(function (b) {
+    b.addEventListener('click', function () { open('jurisdiction', b.getAttribute('data-jurisdiction')); });
+  });
+
+  // ?q= from the homepage search bar
+  var q = (location.search.match(/[?&]q=([^&]*)/) || [])[1];
+  if (q) {
+    var input = root.querySelector('[data-q]');
+    if (input) {
+      input.value = decodeURIComponent(q).replace(/\+/g, ' ');
+      input.dispatchEvent(new Event('input', { bubbles: true }));
+      setTimeout(function () { if (root.scrollIntoView) root.scrollIntoView(); }, 60);
+    }
+  }
+})();
+
+/* ------------------------------------------ 10. Madrid fee calculator --- */
+(function () {
+  var root = document.querySelector('[data-madrid]');
+  if (!root) return;
+
+  // WIPO schedule of fees, in Swiss francs.
+  var BASIC_BW = 653, BASIC_COL = 903, SUPP_PER_CLASS = 100, COMPLEMENTARY = 100;
+
+  // Members charging a standard complementary fee, and members charging an
+  // individual fee that the applicant enters from the WIPO schedule.
+  var MEMBERS = [
+    ['European Union', 1], ['United States of America', 1], ['Japan', 1], ['United Kingdom', 1],
+    ['Australia', 1], ['Switzerland', 1], ['Singapore', 1], ['China', 0],
+    ['Canada', 1], ['Republic of Korea', 1], ['Brazil', 1], ['Mexico', 1], ['Turkiye', 1],
+    ['United Arab Emirates', 1], ['New Zealand', 1], ['Norway', 1], ['Israel', 1],
+    ['Germany', 0], ['France', 0], ['Spain', 0], ['Italy', 0], ['Netherlands (Benelux)', 0],
+    ['Ireland', 0], ['Portugal', 0], ['Poland', 0], ['Austria', 0], ['Sweden', 0],
+    ['Denmark', 0], ['Finland', 0], ['Russian Federation', 0], ['Viet Nam', 0],
+    ['Thailand', 0], ['Indonesia', 0], ['Malaysia', 0], ['Philippines', 0],
+    ['Egypt', 0], ['Kenya', 0], ['Nigeria', 0], ['South Africa', 0], ['Morocco', 0]
+  ];
+
+  var wrap = root.querySelector('[data-desigs]');
+  wrap.innerHTML = MEMBERS.map(function (m, i) {
+    return '<label class="desig" data-ind="' + m[1] + '">' +
+      '<input type="checkbox" data-m="' + i + '">' +
+      '<span>' + m[0] + '</span>' +
+      '<i>' + (m[1] ? 'individual fee' : '100 CHF') + '</i>' +
+    '</label>';
+  }).join('');
+
+  var colour = root.querySelector('[data-colour]');
+  var classes = root.querySelector('[data-classes]');
+  var indiv = root.querySelector('[data-indiv]');
+  var boxes = [].slice.call(root.querySelectorAll('[data-m]'));
+
+  function money(n) { return n.toLocaleString('en-GB', { maximumFractionDigits: 0 }); }
+
+  function calc() {
+    var cls = Math.max(1, Math.min(45, parseInt(classes.value, 10) || 1));
+    var basic = colour.value === 'colour' ? BASIC_COL : BASIC_BW;
+    var supp = Math.max(0, cls - 3) * SUPP_PER_CLASS;
+
+    var std = 0, ind = 0;
+    boxes.forEach(function (b) {
+      var lab = b.closest('.desig');
+      lab.classList.toggle('on', b.checked);
+      if (!b.checked) return;
+      if (lab.getAttribute('data-ind') === '1') ind++;
+      else std++;
+    });
+
+    var stdFee = std * COMPLEMENTARY;
+    var indFee = ind * (parseFloat(indiv.value) || 0);
+    var total = basic + supp + stdFee + indFee;
+
+    root.querySelector('[data-total]').textContent = money(total) + ' CHF';
+    root.querySelector('[data-l-basic]').textContent = money(basic) + ' CHF';
+    root.querySelector('[data-l-supp]').textContent = money(supp) + ' CHF';
+    root.querySelector('[data-l-std]').textContent = std + ' x 100 = ' + money(stdFee) + ' CHF';
+    root.querySelector('[data-l-ind]').textContent = ind
+      ? ind + ' x ' + money(parseFloat(indiv.value) || 0) + ' = ' + money(indFee) + ' CHF'
+      : 'none selected';
+    root.querySelector('[data-l-count]').textContent = (std + ind) + ' designations, ' + cls + (cls === 1 ? ' class' : ' classes');
+  }
+
+  root.addEventListener('input', calc);
+  root.addEventListener('change', calc);
+  calc();
 })();
