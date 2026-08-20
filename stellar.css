@@ -157,6 +157,10 @@ p:last-child{ margin-bottom:0; }
 }
 .txtlink:hover{ border-color:var(--accent); }
 
+@media screen and (max-width:768px) {
+  header .btn--ghost{ display: none; }
+}
+
 /* ------------------------------------------------------------------ nav -- */
 .nav{
   background:var(--nav);
